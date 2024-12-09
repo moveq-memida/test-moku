@@ -1,0 +1,290 @@
+@charset 'utf-8';
+
+:root {
+    --black: #434D54;
+    --gray-dark: #8F979F;
+    --gray-light: #CDD4D9;
+    --pink: #FD6F6F;
+    --green: #69AF44;
+    --white: #FFFFFF;
+}
+
+.secttl-box .ja-ttl {
+    margin-top: 8px;
+}
+
+/* section */
+.section {
+    max-width: 1080px;
+    width: 100%;
+    padding: 0 100px;
+    margin: auto;
+    @media only screen and (max-width: 767px) {
+        padding: 0 24px;
+    }
+}
+
+/* margin */
+.mt195 {
+    margin-top: 195px;
+    @media only screen and (max-width: 767px) {
+        margin-top: 190px;
+    }
+}
+
+.mt380 {
+    margin-top: 380px;
+}
+
+.pm0 {
+    padding: 0;
+    margin: 0;
+}
+
+/* Our items */
+.l-food {
+    margin-top: 119px;
+}
+
+.p-food__wrapper {
+    margin-top: 64px;
+}
+
+.l-supplement {
+    margin: 121px auto 161px;
+}
+
+/* Brand story */
+.l-story {
+    margin-top: 335px;
+}
+
+.p-story__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    grid-gap: 250px;
+    &--bottom {
+        background: #FFF5F5;
+        padding: 106px 100px 106px 153px;
+        width: 100%;
+        margin: auto;
+        margin-top: 162px;
+    }
+    @media only screen and (max-width: 767px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.p-story__img {
+    max-width: 340px;
+    text-align: center;
+    @media only screen and (max-width: 767px) {
+        max-width: 235px;
+    }
+    &--02 {
+        max-width: 484px;
+    }
+    &--03 {
+        max-width: 480px;
+    }
+    &--04 {
+        max-width: 221px;
+    }
+    &--logo {
+        max-width: 334px;
+    }
+}
+
+.p-story__txt {
+    color: var(--pink);
+    font-family: "Yu Gothic";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 250%;
+}
+
+.p-story__txt--black {
+    color: var(--black);
+    font-family: "Yu Gothic";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 250%;
+    letter-spacing: -0.32px;
+}
+
+.p-story__txt--pink {
+    color: var(--pink);
+}
+
+.p-story__txt--black span {
+    display: block;
+}
+
+.p-story__txt--pink p span {
+    display: block;
+    color: var(--pink);
+    font-family: "Yu Gothic";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 250%;
+    letter-spacing: -0.32px;
+}
+
+.p-story__txt--black span:nth-child(2) {
+    margin-top: 32px;
+}
+
+.p-story__txt--black span:nth-child(3) {
+    margin-top: 32px;
+}
+
+.p-story__txt--pink p span:nth-child(1) {
+    margin-top: 56px;
+}
+
+.p-story__txt--pink p span:nth-child(2) {
+    margin-top: 32px;
+}
+
+/* Component */
+.c-center {
+    text-align: center;
+}
+
+.c-hd-title-en {
+    color: var(--pink);
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+.c-hd-title-ja {
+    color: var(--pink);
+    font-family: "Yu Gothic";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    margin-top: 8px;
+}
+
+.c-breadcrumbs {
+    margin-top: 32px;
+}
+
+.c-breadcrumbs-inner {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    background: #EDF2F5;
+    height: 36px;
+}
+
+.c-breadcrumbs-img-home {
+    width: 16px;
+    height: 16px;
+}
+
+.c-breadcrumbs-img-arw {
+    width: 7px;
+    height: 12px;
+}
+
+.c-breadcrumbs-txt {
+    color: var(--black);
+    font-family: "Noto Sans JP";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+.c-ourItem-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.c-ourItem-category {
+    color: var(--black);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    display: block;
+    margin-top: 24px;
+    @media only screen and (max-width: 767px) {
+        margin-top: 16px;
+    }
+}
+
+.c-ourItem-title {
+    color: var(--black);
+    font-family: "Yu Gothic";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    margin-top: 8px;
+    @media only screen and (max-width: 767px) {
+        font-size: 16px;
+    }
+}
+
+.c-ourItem-txt {
+    color: #8E9296;
+    font-family: "Yu Gothic";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: -0.28px;
+    margin-top: 14px;
+    @media only screen and (max-width: 767px) {
+        margin-top: 16px;
+    }
+}
+
+.c-ourItem-price {
+    color: var(--pink);
+    font-family: "Open Sans";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    text-align: right;
+    margin-top: 25px;
+    @media only screen and (max-width: 767px) {
+        font-size: 24px;
+        margin-top: 17px;
+    }
+}
+
+.c-ourItem-price-dollar {
+    font-weight: 500;
+}
+
+.c-ourItem-price-tax {
+    font-family: "Yu Gothic";
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 4px;
+    @media only screen and (max-width: 767px) {
+        margin-left: 2px;
+    }
+}
+
+
+/* sp */
+.sp {
+    display: block;
+    @media only screen and (max-width: 767px) {
+        display: none;
+    }
+}
