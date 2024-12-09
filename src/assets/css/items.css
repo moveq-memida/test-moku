@@ -46,6 +46,20 @@
   margin: 0;
 }
 
+/* padding */
+.pt195 {
+  padding-top: 195px;
+}
+@media only screen and (max-width: 767px) {
+  .pt195 {
+    padding-top: 190px;
+  }
+}
+
+.pb160 {
+  padding-bottom: 160px;
+}
+
 /* Our items */
 .l-food {
   margin-top: 119px;
@@ -162,6 +176,42 @@
   margin-top: 32px;
 }
 
+.p-voice__inner {
+  text-align: center;
+  margin: 120px 0 160px;
+}
+
+.p-voice__txt {
+  color: var(--black);
+  text-align: center;
+  font-family: "Yu Gothic";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+  letter-spacing: -0.4px;
+}
+
+.p-voice__img {
+  margin-top: 32px;
+  position: relative;
+  left: -85px;
+}
+@media only screen and (max-width: 767px) {
+  .p-voice__img {
+    left: -35px;
+  }
+}
+
+.p-voice__img img {
+  max-width: 338px;
+}
+@media only screen and (max-width: 767px) {
+  .p-voice__img img {
+    max-width: 256px;
+  }
+}
+
 /* Component */
 .c-center {
   text-align: center;
@@ -173,6 +223,11 @@
   font-style: normal;
   font-weight: 700;
   line-height: 130%;
+}
+@media only screen and (max-width: 767px) {
+  .c-hd-title-en {
+    font-size: 56px;
+  }
 }
 
 .c-hd-title-ja {
@@ -303,6 +358,10 @@
   }
 }
 
+.c-bg-yellow {
+  background: #FFDB85;
+}
+
 /* sp */
 .sp {
   display: block;
@@ -310,5 +369,15 @@
 @media only screen and (max-width: 767px) {
   .sp {
     display: none;
+  }
+}
+
+/* pc */
+.pc {
+  display: none;
+}
+@media only screen and (max-width: 767px) {
+  .pc {
+    display: block !important;
   }
 }/*# sourceMappingURL=items.css.map */

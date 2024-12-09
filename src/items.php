@@ -10,8 +10,8 @@ $og_description = "Habit+の公式サイトへようこそ。";
 include __DIR__ . '/components/Header.php';
 ?>
 
-<main>
-    <div class="l-items section mt195">
+<main class="wide-wrap">
+    <div class="l-items mt195">
         <div class="c-hd-title-inner">
             <h2 class="c-hd-title-en zenkaku">Our items</h2>
             <p class="c-hd-title-ja">アイテムご紹介</p>
@@ -24,7 +24,7 @@ include __DIR__ . '/components/Header.php';
             </p>
         </div>
     </div>
-    <section class="l-food section">
+    <section class="l-food">
         <div class="secttl-box">
             <h2 class="sec-ttl zenkaku">Food/Drink</h2>
             <p class="ja-ttl">フード・ドリンク</p>
@@ -64,7 +64,7 @@ include __DIR__ . '/components/Header.php';
             </ul>
         </div>
     </section>
-    <section class="l-supplement section">
+    <section class="l-supplement">
         <div class="secttl-box">
             <h2 class="sec-ttl zenkaku">Supplement</h2>
             <p class="ja-ttl">サプリメント</p>
@@ -107,6 +107,5 @@ include __DIR__ . '/components/Header.php';
 </main>
 
 <?php
-include __DIR__ . '/components/Cta.php';
 include __DIR__ . '/components/Footer.php';
 ?>
