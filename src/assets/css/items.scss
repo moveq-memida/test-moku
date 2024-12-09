@@ -22,6 +22,9 @@
     @media only screen and (max-width: 767px) {
         padding: 0 24px;
     }
+    &-full {
+      margin-inline: calc(50% - 50vw);
+    }
 }
 
 /* margin */
@@ -66,10 +69,14 @@
     grid-gap: 250px;
     &--bottom {
         background: #FFF5F5;
-        padding: 106px 100px 106px 153px;
-        width: 100%;
-        margin: auto;
+        // padding: 106px 100px 106px 153px;
+        padding: 106px 0px;
+        // width: 100%;
+        // margin: auto;
         margin-top: 162px;
+    }
+    @media only screen and (max-width: 1079px) {
+        grid-gap: 100px;
     }
     @media only screen and (max-width: 767px) {
         grid-template-columns: 1fr;

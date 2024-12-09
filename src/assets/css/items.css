@@ -23,6 +23,9 @@
     padding: 0 24px;
   }
 }
+.section-full {
+  margin-inline: calc(50% - 50vw);
+}
 
 /* margin */
 .mt195 {
@@ -69,10 +72,13 @@
 }
 .p-story__list--bottom {
   background: #FFF5F5;
-  padding: 106px 100px 106px 153px;
-  width: 100%;
-  margin: auto;
+  padding: 106px 0px;
   margin-top: 162px;
+}
+@media only screen and (max-width: 1079px) {
+  .p-story__list {
+    grid-gap: 100px;
+  }
 }
 @media only screen and (max-width: 767px) {
   .p-story__list {

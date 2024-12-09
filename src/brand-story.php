@@ -10,8 +10,8 @@ $og_description = "Habit+の公式サイトへようこそ。";
 include __DIR__ . '/components/Header.php';
 ?>
 
-<main>
-    <div class="l-items section mt195">
+<main class="wide-wrap">
+    <div class="l-items mt195">
         <div class="c-hd-title-inner">
             <h2 class="c-hd-title-en zenkaku">Brand story</h2>
             <p class="c-hd-title-ja">ブランドストーリー</p>
@@ -24,7 +24,7 @@ include __DIR__ . '/components/Header.php';
             </p>
         </div>
     </div>
-    <section class="l-story section">
+    <section class="l-story">
         <div class="p-story__list">
             <picture class="c-center">
                 <source srcset="/assets/images/brand-story/brand-story01.png" media="(max-width: 768px)" />
@@ -33,7 +33,7 @@ include __DIR__ . '/components/Header.php';
             <p class="p-story__txt">私たちが本当に望んでいるのは、<br>「痩せたい」ではなく、<br>「食べたい」です。</p>
         </div>
     </section>
-    <section class="l-story section mt380">
+    <section class="l-story mt380">
         <div class="p-story__list">
             <picture class="c-center">
                 <source srcset="/assets/images/brand-story/brand-story02.png" media="(max-width: 768px)" />
@@ -46,7 +46,7 @@ include __DIR__ . '/components/Header.php';
             </p>
         </div>
     </section>
-    <section class="l-story section mt380">
+    <section class="l-story mt380">
         <div class="p-story__list">
             <picture class="c-center">
                 <source srcset="/assets/images/brand-story/brand-story03.png" media="(max-width: 768px)" />
@@ -59,7 +59,7 @@ include __DIR__ . '/components/Header.php';
             </p>
         </div>
     </section>
-    <section class="l-story section mt380">
+    <section class="l-story mt380">
         <div class="p-story__list">
             <picture class="c-center">
                 <source srcset="/assets/images/brand-story/brand-story04.png" media="(max-width: 768px)" />
@@ -72,8 +72,8 @@ include __DIR__ . '/components/Header.php';
             </p>
         </div>
     </section>
-    <section class="l-story p-story__list--bottom">
-        <div class="p-story__list section pm0">
+    <section class="l-story section-full p-story__list--bottom">
+        <div class="p-story__list wide-wrap">
             <picture class="c-center">
                 <source srcset="/assets/images/brand-story/brand-story-logo.png" media="(max-width: 768px)" />
                 <img src="/assets/images/brand-story/brand-story-logo.png" alt="ブランドストーリーロゴ" class="p-story__img p-story__img--logo">
