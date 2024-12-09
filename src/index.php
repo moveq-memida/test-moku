@@ -106,20 +106,29 @@ include __DIR__ . '/components/header.php';
     <section id="detail">
         <div class="usu-wrap">
             <div class="bnr-box">
-                <a href="">
-                    <picture>
-                        <source srcset="/assets/images/bnr01_sp.png" media="(max-width: 768px)" />
-                        <img src="/assets/images/top_banner01.png" alt="">
-                    </picture>
+                <a href="" class="p-bnr">
+                    <div class="p-bnr__inner">
+                        <img src="/assets/images/bown_flip.png" alt="フリップ" class="p-bnr__img-flip">
+                        <img src="/assets/images/bnr01_mas.png" alt="マスコット" class="p-bnr__img-mascot">
+                        <img src="/assets/images/top_banner01@2x.png" alt="わたしたちって、なんで痩せたいんだろう。" class="p-bnr__img">
+                        <div class="p-bnr__btnArea">
+                            <img src="/assets/images/book.svg" alt="ブランド誕生ストーリーへ">
+                            <p class="p-bnr__btn">ブランド誕生ストーリーへ</p>
+                        </div>
+                    </div>
                 </a>
                 <div class="btn-flex-block">
-                    <a href="">
+                    <a href="" class="p-bnr--02">
+                    <img src="/assets/images/mascot_lineup.png" alt="マスコット3匹" class="p-bnr__img-mascot-top">
+                    <img src="/assets/images/mascot_lineup02.png" alt="マスコット1匹" class="p-bnr__img-mascot-bottom">
                         <picture>
                             <source srcset="/assets/images/top_bnr02.png" media="(max-width: 768px)" />
                             <img src="/assets/images/top_banner02.png" alt="">
                         </picture>
                     </a>
-                    <a href="">
+                    <a href="" class="p-bnr--03">
+                        <img src="/assets/images/bnr03_mas_left.png" alt="マスコット左" class="p-bnr__img-mascot-left">
+                        <img src="/assets/images/bnr03_mas_right.png" alt="マスコット右" class="p-bnr__img-mascot-right">
                         <picture>
                             <source srcset="/assets/images/top_bnr03.png" media="(max-width: 768px)" />
                             <img src="/assets/images/top_banner03.png" alt="">
@@ -276,6 +285,6 @@ include __DIR__ . '/components/header.php';
 </main>
 
 <?php
-include __DIR__ . '/components/cta.php';
-include __DIR__ . '/components/footer.php';
+include __DIR__ . '/components/Cta.php';
+include __DIR__ . '/components/Footer.php';
 ?>
