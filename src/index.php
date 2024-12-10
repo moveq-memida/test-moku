@@ -106,7 +106,7 @@ include __DIR__ . '/components/header.php';
     <section id="detail">
         <div class="usu-wrap">
             <div class="bnr-box">
-                <a href="" class="p-bnr">
+                <a href="" class="p-bnr" data-inview="fade">
                     <div class="p-bnr__inner">
                         <div class="p-bnr__titleArea">
                             <h3 class="p-bnr__title">わたしたちって、<br>なんで
@@ -123,23 +123,19 @@ include __DIR__ . '/components/header.php';
                             </figure>
                         </div>
                     </div>
-                        <img src="/assets/images/bown_flip.png" alt="フリップ" class="p-bnr__img-flip">
-                        <img src="/assets/images/bnr01_mas.png" alt="マスコット" class="p-bnr__img-mascot">
-                        <div class="p-bnr__btnArea">
-                            <img src="/assets/images/book.svg" alt="ブランド誕生ストーリーへ">
-                            <p class="p-bnr__btn">ブランド誕生ストーリーへ</p>
-                        </div>
+                    <img src="/assets/images/bown_flip.png" alt="フリップ" class="p-bnr__img-flip">
+                    <img src="/assets/images/bnr01_mas.png" alt="マスコット" class="p-bnr__img-mascot">
                 </a>
                 <div class="btn-flex-block">
-                    <a href="" class="p-bnr--02">
+                    <a href="" class="p-bnr--02" data-inview="fade">
                         <img src="/assets/images/mascot_lineup.png" alt="マスコット3匹" class="p-bnr__img-mascot-top">
-                        <img src="/assets/images/mascot_lineup02.png" alt="マスコット1匹" class="p-bnr__img-mascot-bottom">
+                        <img src="/assets/images/mascot-rise-up.png" alt="マスコット1匹" class="p-bnr__img-mascot-bottom">
                         <picture>
                             <source srcset="/assets/images/top_bnr02.png" media="(max-width: 768px)" />
                             <img src="/assets/images/top_banner02.png" alt="">
                         </picture>
                     </a>
-                    <a href="" class="p-bnr--03">
+                    <a href="" class="p-bnr--03" data-inview="fade">
                         <img src="/assets/images/bnr03_mas_left.png" alt="マスコット左" class="p-bnr__img-mascot-left">
                         <img src="/assets/images/bnr03_mas_right.png" alt="マスコット右" class="p-bnr__img-mascot-right">
                         <picture>
