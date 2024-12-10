@@ -119,7 +119,7 @@ include __DIR__ . '/components/header.php';
                         </div>
                         <div class="p-bnr__imgArea">
                             <figure>
-                                <img src="/assets/images/bnr01_woman.png" alt="わたしたちって、なんで痩せたいんだろう。" class="p-bnr__imgArea-img">
+                                <img src="/assets/images/woman-trouble.svg" alt="わたしたちって、なんで痩せたいんだろう。" class="p-bnr__imgArea-img">
                             </figure>
                         </div>
                     </div>

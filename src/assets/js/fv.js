@@ -35,7 +35,7 @@ class Inview {
                 });
 
                 gsap.to(mascotImage, {
-                    x: '-200%',
+                    x: '-160%',
                     opacity: 1,
                     duration: 0.6,
                     rotation: -3,
@@ -46,7 +46,7 @@ class Inview {
             el.addEventListener('mouseleave', () => {
                 gsap.to(flipImage, {
                     x: 0,
-                    opacity: 0.8,
+                    opacity: 1,
                     duration: 0.6,
                     rotation: 0,
                     ease: 'back.out(1.2)'
@@ -54,7 +54,7 @@ class Inview {
 
                 gsap.to(mascotImage, {
                     x: 0,
-                    opacity: 0.8,
+                    opacity: 1,
                     duration: 0.6,
                     rotation: 0,
                     ease: 'back.out(1.2)'
