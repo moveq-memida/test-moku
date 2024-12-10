@@ -108,19 +108,32 @@ include __DIR__ . '/components/header.php';
             <div class="bnr-box">
                 <a href="" class="p-bnr">
                     <div class="p-bnr__inner">
+                        <div class="p-bnr__titleArea">
+                            <h3 class="p-bnr__title">わたしたちって、<br>なんで
+                                <span class="c-txt-yellow">痩せたい</span>んだろう。
+                            </h3>
+                            <p class="p-bnr__btn">
+                                <img src="/assets/images/book.svg" alt="ブランド誕生ストーリーへ" class="p-bnr__btn-img">
+                                <span class="p-bnr__btn-txt">ブランド誕生ストーリーへ</span>
+                            </p>
+                        </div>
+                        <div class="p-bnr__imgArea">
+                            <figure>
+                                <img src="/assets/images/bnr01_woman.png" alt="わたしたちって、なんで痩せたいんだろう。" class="p-bnr__imgArea-img">
+                            </figure>
+                        </div>
+                    </div>
                         <img src="/assets/images/bown_flip.png" alt="フリップ" class="p-bnr__img-flip">
                         <img src="/assets/images/bnr01_mas.png" alt="マスコット" class="p-bnr__img-mascot">
-                        <img src="/assets/images/top_banner01@2x.png" alt="わたしたちって、なんで痩せたいんだろう。" class="p-bnr__img">
                         <div class="p-bnr__btnArea">
                             <img src="/assets/images/book.svg" alt="ブランド誕生ストーリーへ">
                             <p class="p-bnr__btn">ブランド誕生ストーリーへ</p>
                         </div>
-                    </div>
                 </a>
                 <div class="btn-flex-block">
                     <a href="" class="p-bnr--02">
-                    <img src="/assets/images/mascot_lineup.png" alt="マスコット3匹" class="p-bnr__img-mascot-top">
-                    <img src="/assets/images/mascot_lineup02.png" alt="マスコット1匹" class="p-bnr__img-mascot-bottom">
+                        <img src="/assets/images/mascot_lineup.png" alt="マスコット3匹" class="p-bnr__img-mascot-top">
+                        <img src="/assets/images/mascot_lineup02.png" alt="マスコット1匹" class="p-bnr__img-mascot-bottom">
                         <picture>
                             <source srcset="/assets/images/top_bnr02.png" media="(max-width: 768px)" />
                             <img src="/assets/images/top_banner02.png" alt="">

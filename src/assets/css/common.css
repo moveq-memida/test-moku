@@ -1376,10 +1376,77 @@ transform: translateY(0);
 }
 
  /* fv */
- .p-bnr__inner {
-    position: relative;
-    overflow: hidden;
+
+ .p-bnr  {
+    display: block;
+    background: url(/assets/images/top_banner01.png) no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 50px 80px 50px 96px;
  }
+ 
+ .p-bnr__inner {
+    display: grid;
+    grid-gap: 19px;
+    grid-template-columns: 1.5fr 1fr;
+ }
+
+ .p-bnr__title {
+    color: var(--white);
+    text-align: center;
+    font-family: "Yu Gothic";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 0.8px;
+}
+
+.c-txt-yellow {
+    color: #FFDB85;
+}
+
+.p-bnr__btn {
+    border-radius: 22.5px;
+    background: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    padding: 11px 34px 10px 35px;
+    margin-top: 13px;
+    max-width: 331px;
+}
+
+.p-bnr__btn-txt {
+    color: #526FD3;
+    font-family: "Yu Gothic";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0.48px;
+}
+
+.p-bnr__btn-img {
+    width: 30px;
+    height: 22px;
+}
+
+.p-bnr__img {
+    width: 100%;
+}
+
+.p-bnr__imgArea-img {
+    width: 75%;
+}
+
+.p-bnr__titleArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 .p-bnr__btnArea {
     position: absolute;

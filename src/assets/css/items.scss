@@ -201,6 +201,34 @@
     }
 }
 
+.l-mainVisual {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.p-mainVisual__txt {
+    color: var(--pink);
+    text-align: center;
+    font-family: "Yu Gothic";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 200%;
+    letter-spacing: -0.48px;
+}
+
+.p-mainVisual__img {
+    max-width: 780px;
+    margin-top: 80px;
+    position: relative;
+    bottom: 20px;
+}
+
+.l-ambassadorTxt {
+    display: grid;
+    gap: 32px;
+}
+
 /* Component */
 .c-center {
     text-align: center;
@@ -337,6 +365,25 @@
 .c-bg-yellow {
     background: #FFDB85;
 }  
+
+.c-bg-pink {
+    background: #FFF5F5;
+    border-radius: 30% 30% 0 0;
+    padding-top: 160px;
+    position: relative;
+    top: -50px;
+}
+
+.l-ambassadorTxt p {
+    color: var(--pink);
+    text-align: center;
+    font-family: "Yu Gothic";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 250%;
+    letter-spacing: -0.32px;
+    }
 
 /* sp */
 .sp {
