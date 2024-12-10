@@ -1481,6 +1481,7 @@ transform: translateY(0);
     background: url(/assets/images/top_banner02.png) no-repeat;
     background-size: cover;
     border-radius: 10px;
+    width: 100%;
 }
  
 .p-bnr__img-mascot-top {
@@ -1534,5 +1535,49 @@ transform: translateY(0);
 
     .p-bnr__title {
         font-size: 32px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .p-bnr {
+        background: url(/assets/images/bg-top-blue.png) no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+        padding: 40px 56px 32px;
+    }
+    
+    .p-bnr__inner {
+        grid-template-columns: 1fr;
+        place-content: center;
+        place-items: center;
+        grid-gap: 17px;
+    }
+
+    .p-bnr__imgArea-img {
+        max-width: 219px;
+        max-height: 185px;
+    }
+
+    .p-bnr__title {
+        font-size: 24px;
+        letter-spacing: 0.48px;
+    }
+
+    .p-bnr__btn-txt {
+        font-size: 16px;
+        letter-spacing: 0.32px;
+    }
+
+    .p-bnr__btn {
+        padding: 8px 23px;
+    }
+
+    .p-bnr--02 {
+        background: url(/assets/images/bg-top-yellow@2x.png) no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+        padding: 60px 20px;
+        width: auto;
+        height: 150px;
     }
 }

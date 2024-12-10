@@ -130,10 +130,6 @@ include __DIR__ . '/components/header.php';
                     <a href="" class="p-bnr--02" data-inview="fade">
                         <img src="/assets/images/mascot_lineup.png" alt="マスコット3匹" class="p-bnr__img-mascot-top">
                         <img src="/assets/images/mascot-rise-up.png" alt="マスコット1匹" class="p-bnr__img-mascot-bottom">
-                        <picture>
-                            <source srcset="/assets/images/top_bnr02.png" media="(max-width: 768px)" />
-                            <img src="/assets/images/top_banner02.png" alt="">
-                        </picture>
                     </a>
                     <a href="" class="p-bnr--03" data-inview="fade">
                         <img src="/assets/images/bnr03_mas_left.png" alt="マスコット左" class="p-bnr__img-mascot-left">
