@@ -1,0 +1,231 @@
+.l-contact {
+  margin: 195px auto 160px;
+  margin-top: 195px;
+  margin-bottom: 160px;
+}
+
+.c-status-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 58px;
+}
+
+.c-status-item {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--gray-dark, #8F979F);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  color: var(--gray-dark, #8F979F);
+  flex-shrink: 0;
+}
+.c-status-item--pink {
+  border: 2px solid var(--main-2, #FD6F6F);
+  color: var(--main-2, #FD6F6F);
+}
+.c-status-item:not(:last-child)::before {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  background: url(../images/arw-bold.svg) no-repeat;
+  width: 10px;
+  height: 16px;
+  right: -38px;
+}
+
+.c-form-wrapper {
+  display: block;
+  margin-top: 80px;
+  background: #FFF5F5;
+  padding: 83px 80px 80px;
+  border-radius: 50px;
+}
+
+.c-form-group:not(:first-child) {
+  margin-top: 51px;
+}
+
+.c-form-label {
+  color: var(--txt, #434D54);
+  font-family: "Yu Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.c-form-required {
+  color: var(--white, #FFF);
+  font-family: "Yu Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  border-radius: 2px;
+  background: var(--main-2, #FD6F6F);
+  padding: 3px 6px;
+  margin-left: 6px;
+}
+
+.c-form-input {
+  background: var(--white, #FFF);
+  width: 100%;
+  height: 50px;
+  margin: auto;
+  margin-top: 25px;
+  border: none;
+  padding: 15px 0 14px 24px;
+  color: var(--gray-dark, #8F979F);
+  font-family: "Yu Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.c-form-group-kind {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 25px;
+}
+
+.c-form-label-kind {
+  color: var(--txt, #434D54);
+  font-family: "Yu Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.c-form-input-kind {
+  position: relative;
+}
+.c-form-input-kind::before {
+  content: "";
+  position: absolute;
+  background: url(../images/form_radio.svg) no-repeat;
+  width: 20px;
+  height: 20px;
+  bottom: -2px;
+  left: -4px;
+}
+
+.c-form .c-form-group-content {
+  margin-top: 48px;
+}
+
+.c-form-textarea {
+  width: 100%;
+  display: block;
+  height: 300px;
+  border: none;
+  resize: none;
+  margin-top: 24px;
+  padding: 16px 24px;
+  color: var(--gray-dark, #8F979F);
+  font-family: "Yu Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+}
+
+.c-form-group-num {
+  text-align: right;
+  color: var(--gray-dark, #8F979F);
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  margin-top: 8px;
+}
+
+.c-btn-area {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 64px;
+}
+
+.c-btn {
+  color: var(--white, #FFF);
+  font-family: "Yu Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  border-radius: 25px;
+  border: none;
+  padding: 15px 78px 14px;
+  position: relative;
+}
+.c-btn--pink {
+  background: var(--main-2, #FD6F6F);
+}
+.c-btn--gray {
+  background: var(--gray-dark, #8F979F);
+}
+.c-btn::before {
+  position: absolute;
+  content: "";
+  background: url(../images/arw-bold-white.svg) no-repeat;
+  width: 10px;
+  height: 16px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 16px;
+}
+
+.c-policy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+}
+
+input[type=checkbox] {
+  width: 20px;
+  height: 20px;
+  border: 1.5px solid #CDD4D9;
+  background: #FFF;
+  margin: 0 15px 0 0;
+}
+
+.c-policy-txt {
+  color: var(--txt, #434D54);
+  font-family: "Yu Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.c-policy-txt span {
+  border-bottom: 1px solid #434D54;
+}
+
+.l-form {
+  width: 100%;
+  max-width: 900px;
+  padding: 83px 100px 80px;
+  margin: 160px auto 0;
+  border-radius: 50px;
+  background: #FFF5F5;
+}
+
+.l-contact {
+  color: var(--txt, #434D54);
+  font-family: "Yu Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}/*# sourceMappingURL=contact.css.map */

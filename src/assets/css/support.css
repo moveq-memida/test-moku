@@ -1,0 +1,380 @@
+.wrapper {
+  margin-top: 136px;
+  margin-bottom: 297px;
+}
+@media only screen and (max-width: 767px) {
+  .wrapper {
+    width: 100%;
+    margin: 120px 0 402px;
+    padding: 0 24px;
+  }
+}
+
+.c-title {
+  color: #FD6F6F;
+  font-family: "Zen Kaku Gothic New";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.c-subtitle {
+  color: #FD6F6F;
+  font-family: "Yu Gothic";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  margin-top: 8px;
+}
+
+.p-payment__txt {
+  color: var(--txt, #434D54);
+  font-family: "Yu Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: -0.32px;
+  margin-top: 64px;
+}
+@media only screen and (max-width: 767px) {
+  .p-payment__txt {
+    margin-top: 56px;
+  }
+}
+
+.p-about__fee {
+  margin-top: 64px;
+}
+@media only screen and (max-width: 767px) {
+  .p-about__fee {
+    margin-top: 56px;
+  }
+}
+
+.p-about__title {
+  color: #FD6F6F;
+  font-family: "Yu Gothic";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  padding-left: 6px;
+}
+.p-about__title::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  width: 23px;
+  height: 18px;
+  background: url("../images/support_list_icon.png") no-repeat;
+  left: -6px;
+  top: -1px;
+}
+
+.p-about__txt {
+  color: var(--txt, #434D54);
+  font-family: "Yu Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: -0.32px;
+  margin-top: 32px;
+}
+
+.p-about__means {
+  margin-top: 64px;
+}
+@media only screen and (max-width: 767px) {
+  .p-about__means {
+    margin-top: 56px;
+  }
+}
+
+.p-about__means-list {
+  margin-top: 32px;
+}
+
+.p-about__means-title {
+  color: var(--txt, #434D54);
+  font-family: "Yu Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  border-bottom: 1px dashed #8F979F;
+  padding: 0 0 16px 10px;
+}
+.p-about__means-title:before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #FD6F6F;
+  left: -8px;
+  top: -3px;
+}
+
+.p-about__means-card {
+  margin-top: 32px;
+}
+@media only screen and (max-width: 767px) {
+  .p-about__means-card {
+    margin-top: 16px;
+  }
+}
+
+.p-about__means-band {
+  color: var(--txt, #434D54);
+  font-family: "Yu Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: -0.32px;
+}
+
+.p-about__means-brand {
+  color: var(--txt, #434D54);
+  font-family: "Yu Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: -0.32px;
+}
+
+.p-about__means-card-img {
+  margin-top: 16px;
+  display: flex;
+}
+
+.p-about__means-txt {
+  color: var(--txt, #434D54);
+  font-family: "Yu Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: -0.32px;
+  margin-top: 16px;
+}
+
+.p-about__means-bank {
+  margin-top: 32px;
+}
+
+.p-about__means-bank-careful {
+  margin-top: 16px;
+}
+
+.p-about__means-bank-careful-list {
+  background: #EDF2F5;
+  padding: 24px;
+}
+
+.p-about__means-bank-careful-item {
+  color: #ED3D3D;
+  font-family: "Yu Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: -0.32px;
+}
+
+.p-about__means-amazon {
+  margin-top: 32px;
+}
+
+.p-about__means-paypay {
+  margin-top: 32px;
+}
+
+.p-about__change {
+  margin-top: 64px;
+}
+@media only screen and (max-width: 767px) {
+  .p-about__change {
+    margin-top: 56px;
+  }
+}
+
+.p-about__means-card-img {
+  width: 416px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 17px;
+}
+@media only screen and (max-width: 767px) {
+  .p-about__means-card-img {
+    width: 100%;
+  }
+}
+
+.p-about__means-img {
+  display: block;
+  height: 50px;
+}
+
+.l-receipt {
+  margin-top: 94px;
+}
+@media only screen and (max-width: 767px) {
+  .l-receipt {
+    margin-top: 120px;
+  }
+}
+
+.p-about__issue {
+  margin-top: 64px;
+}
+@media only screen and (max-width: 767px) {
+  .p-about__issue {
+    margin-top: 56px;
+  }
+}
+
+.l-wrapping {
+  margin-top: 120px;
+}
+
+.p-wrapping__txt {
+  color: var(--txt, #434D54);
+  font-family: "Yu Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: -0.32px;
+  margin-top: 64px;
+}
+
+.l-delivery {
+  margin-top: 120px;
+}
+
+.p-about__due {
+  margin-top: 64px;
+}
+@media only screen and (max-width: 767px) {
+  .p-about__due {
+    margin-top: 56px;
+  }
+}
+
+.p-about__absence {
+  margin-top: 64px;
+}
+@media only screen and (max-width: 767px) {
+  .p-about__absence {
+    margin-top: 56px;
+  }
+}
+
+.p-about__date {
+  margin-top: 64px;
+}
+@media only screen and (max-width: 767px) {
+  .p-about__date {
+    margin-top: 56px;
+  }
+}
+
+.l-cancel {
+  margin-top: 120px;
+}
+
+.p-cancel__txt {
+  color: var(--txt, #434D54);
+  font-family: "Yu Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: -0.32px;
+  margin-top: 64px;
+}
+@media only screen and (max-width: 767px) {
+  .p-cancel__txt {
+    margin-top: 56px;
+  }
+}
+
+.l-exchange {
+  margin-top: 120px;
+}
+
+.p-about__means-yes {
+  margin-top: 32px;
+}
+
+.p-about__means-yes-list {
+  color: var(--txt, #434D54);
+  font-family: "Yu Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: -0.32px;
+  margin-top: 16px;
+}
+
+.p-about__means-yes-item {
+  padding: 0 0 0 17px;
+}
+.p-about__means-yes-item:before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #434D54;
+  left: -8px;
+  top: -3px;
+}
+
+.p-about__means-no-list {
+  color: var(--txt, #434D54);
+  font-family: "Yu Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: -0.32px;
+  margin-top: 16px;
+}
+
+.p-about__means-no {
+  margin-top: 32px;
+}
+
+.p-about__means-no-item {
+  padding: 0 0 0 17px;
+}
+.p-about__means-no-item:before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #434D54;
+  left: -8px;
+  top: -3px;
+}
+
+.p-about__over18 {
+  margin-top: 64px;
+}
+@media only screen and (max-width: 767px) {
+  .p-about__over18 {
+    margin-top: 56px;
+  }
+}/*# sourceMappingURL=support.css.map */

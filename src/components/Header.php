@@ -24,6 +24,11 @@
     <link href="/assets/css/reset.css" rel="stylesheet">
     <link href="/assets/css/common.css" rel="stylesheet">
     <link href="/assets/css/items.css" rel="stylesheet">
+    <link href="/assets/css/contact.css" rel="stylesheet">
+    <link href="/assets/css/home.css" rel="stylesheet">
+    <link href="/assets/css/support.css" rel="stylesheet">
+    <link href="/assets/css/thanks.css" rel="stylesheet">
+    <link href="/assets/css/topic.css" rel="stylesheet">
     <!-- JS -->
     <script src="https://kit.fontawesome.com/e8b4481f69.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
