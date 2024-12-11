@@ -1470,8 +1470,7 @@ transform: translateY(0);
     width: 12%;
     position: absolute;
     top: 8%;
-    right: -20%;
- 
+    right: -21%;
 }
 
 .p-bnr--02 {
@@ -1521,6 +1520,12 @@ transform: translateY(0);
     width: 22.5%;
     right: -30%;
     top: 0;
+}
+
+@media screen and (max-width:1280px) {
+    .p-bnr__title {
+        font-size: 32px;
+    }
 }
 
 @media screen and (max-width:1200px) {
