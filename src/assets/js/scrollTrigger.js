@@ -39,3 +39,51 @@ gsap.to('.p-story__txt--04', {
         pin: true,
     }
 });
+
+gsap.to('.scroll-trigger-img--01', {
+    opacity: 1,
+    scale: 1,
+    duration: 0.3,
+    scrollTrigger: {
+        trigger: '.scroll-trigger--01',
+        start: 'top center',
+        end: '+=1000',
+        toggleActions: 'play reverse play reverse',
+    }
+});
+
+gsap.to('.scroll-trigger-img--02', {
+    opacity: 1,
+    scale: 1,
+    duration: 0.3,
+    scrollTrigger: {
+        trigger: '.scroll-trigger--02',
+        start: 'top center',
+        end: '+=1000',
+        toggleActions: 'play reverse play reverse',
+    }
+});
+
+gsap.to('.scroll-trigger-img--03', {
+    opacity: 1,
+    scale: 1,
+    duration: 0.3,
+    scrollTrigger: {
+        trigger: '.scroll-trigger--03',
+        start: 'top center',
+        end: '+=1000',
+        toggleActions: 'play reverse play reverse',
+    }
+});
+
+gsap.to('.scroll-trigger-img--04', {
+    opacity: 1,
+    scale: 1,
+    duration: 0.3,
+    scrollTrigger: {
+        trigger: '.scroll-trigger--04',
+        start: 'top center',
+        end: '+=1000',
+        toggleActions: 'play reverse play reverse',
+    }
+});

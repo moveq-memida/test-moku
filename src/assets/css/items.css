@@ -139,6 +139,27 @@
   max-width: 334px;
 }
 
+.scroll-trigger-img--01 {
+  text-align: center;
+  opacity: 0;
+  transform: scale(0);
+}
+.scroll-trigger-img--02 {
+  text-align: center;
+  opacity: 0;
+  transform: scale(0);
+}
+.scroll-trigger-img--03 {
+  text-align: center;
+  opacity: 0;
+  transform: scale(0);
+}
+.scroll-trigger-img--04 {
+  text-align: center;
+  opacity: 0;
+  transform: scale(0);
+}
+
 .p-story__txt {
   color: var(--pink);
   font-family: "Yu Gothic";

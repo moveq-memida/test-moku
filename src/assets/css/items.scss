@@ -125,6 +125,29 @@
     }
 }
 
+.scroll-trigger-img {
+    &--01 {
+        text-align: center;
+        opacity: 0;
+        transform: scale(0);
+    }
+    &--02 {
+        text-align: center;
+        opacity: 0;
+        transform: scale(0);
+    }
+    &--03 {
+        text-align: center;
+        opacity: 0;
+        transform: scale(0);
+    }
+    &--04 {
+        text-align: center;
+        opacity: 0;
+        transform: scale(0);
+    }
+}
+
 .p-story__txt {
     color: var(--pink);
     font-family: "Yu Gothic";
