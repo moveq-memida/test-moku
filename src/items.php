@@ -107,5 +107,6 @@ include __DIR__ . '/components/Header.php';
 </main>
 
 <?php
+include __DIR__ . '/components/Cta.php';
 include __DIR__ . '/components/Footer.php';
 ?>
