@@ -27,39 +27,6 @@
   margin-inline: calc(50% - 50vw);
 }
 
-/* margin */
-.mt195 {
-  margin-top: 195px;
-}
-@media only screen and (max-width: 767px) {
-  .mt195 {
-    margin-top: 190px;
-  }
-}
-
-.mt380 {
-  margin-top: 380px;
-}
-
-.pm0 {
-  padding: 0;
-  margin: 0;
-}
-
-/* padding */
-.pt195 {
-  padding-top: 195px;
-}
-@media only screen and (max-width: 767px) {
-  .pt195 {
-    padding-top: 190px;
-  }
-}
-
-.pb160 {
-  padding-bottom: 160px;
-}
-
 /* Our items */
 .l-food {
   margin-top: 119px;
@@ -75,7 +42,36 @@
 
 /* Brand story */
 .l-story {
-  margin-top: 335px;
+  margin-top: 222px;
+}
+@media only screen and (max-width: 767px) {
+  .l-story {
+    margin-top: 280px;
+  }
+}
+.l-story--02 {
+  margin-top: 266px;
+}
+@media only screen and (max-width: 767px) {
+  .l-story--02 {
+    margin-top: 262px;
+  }
+}
+.l-story--03 {
+  margin-top: 296px;
+}
+@media only screen and (max-width: 767px) {
+  .l-story--03 {
+    margin-top: 184px;
+  }
+}
+.l-story--04 {
+  margin-top: 359px;
+}
+@media only screen and (max-width: 767px) {
+  .l-story--04 {
+    margin-top: 185px;
+  }
 }
 
 .p-story__list {
@@ -87,7 +83,13 @@
 .p-story__list--bottom {
   background: #FFF5F5;
   padding: 106px 0px;
-  margin-top: 162px;
+  margin-top: 154px;
+}
+@media only screen and (max-width: 767px) {
+  .p-story__list--bottom {
+    padding: 120px 0;
+    margin-top: 120px;
+  }
 }
 @media only screen and (max-width: 1079px) {
   .p-story__list {
@@ -97,26 +99,43 @@
 @media only screen and (max-width: 767px) {
   .p-story__list {
     grid-template-columns: 1fr;
+    grid-gap: 160px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .p-story__list--02 {
+    grid-gap: 69px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .p-story__list--03 {
+    grid-gap: 93px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .p-story__list--04 {
+    grid-gap: 94px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .p-story__list--05 {
+    grid-gap: 120px;
   }
 }
 
 .p-story__img {
-  max-width: 340px;
-  text-align: center;
-}
-@media only screen and (max-width: 767px) {
-  .p-story__img {
-    max-width: 235px;
-  }
+  max-width: 480px;
+  position: sticky;
+  top: 0;
 }
 .p-story__img--02 {
-  max-width: 484px;
-}
-.p-story__img--03 {
   max-width: 480px;
 }
+.p-story__img--03 {
+  max-width: 440px;
+}
 .p-story__img--04 {
-  max-width: 221px;
+  max-width: 270px;
 }
 .p-story__img--logo {
   max-width: 334px;
@@ -130,8 +149,23 @@
   font-weight: 700;
   line-height: 250%;
 }
+@media only screen and (max-width: 767px) {
+  .p-story__txt {
+    font-size: 20px;
+  }
+}
 
 .p-story__txt--black {
+  display: grid;
+  grid-gap: 32px;
+}
+@media only screen and (max-width: 767px) {
+  .p-story__txt--black {
+    grid-gap: 24px;
+  }
+}
+
+.p-story__txt--black p {
   color: var(--black);
   font-family: "Yu Gothic";
   font-size: 16px;
@@ -145,35 +179,24 @@
   color: var(--pink);
 }
 
-.p-story__txt--black span {
-  display: block;
+.p-story__subTxt--pink {
+  display: grid;
+  grid-gap: 32px;
+  margin-top: 56px;
+}
+@media only screen and (max-width: 767px) {
+  .p-story__subTxt--pink {
+    margin-top: 40px;
+  }
 }
 
-.p-story__txt--pink p span {
-  display: block;
-  color: var(--pink);
+.p-story__subTxt--pink p {
   font-family: "Yu Gothic";
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 250%;
   letter-spacing: -0.32px;
-}
-
-.p-story__txt--black span:nth-child(2) {
-  margin-top: 32px;
-}
-
-.p-story__txt--black span:nth-child(3) {
-  margin-top: 32px;
-}
-
-.p-story__txt--pink p span:nth-child(1) {
-  margin-top: 56px;
-}
-
-.p-story__txt--pink p span:nth-child(2) {
-  margin-top: 32px;
 }
 
 .p-voice__inner {
@@ -427,4 +450,32 @@
   .pc {
     display: block !important;
   }
+}
+
+/* margin */
+.mt195 {
+  margin-top: 195px;
+}
+@media only screen and (max-width: 767px) {
+  .mt195 {
+    margin-top: 190px;
+  }
+}
+
+.mt380 {
+  margin-top: 380px;
+}
+
+/* padding */
+.pt195 {
+  padding-top: 195px;
+}
+@media only screen and (max-width: 767px) {
+  .pt195 {
+    padding-top: 190px;
+  }
+}
+
+.pb160 {
+  padding-bottom: 160px;
 }/*# sourceMappingURL=items.css.map */

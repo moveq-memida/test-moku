@@ -1,6 +1,7 @@
 .wrapper {
-  margin-top: 136px;
-  margin-bottom: 297px;
+  max-width: 1280px;
+  margin: 136px 0 297px;
+  padding: 0 100px;
 }
 @media only screen and (max-width: 767px) {
   .wrapper {

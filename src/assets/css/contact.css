@@ -1,7 +1,6 @@
 .l-contact {
+  padding: 0 190px;
   margin: 195px auto 160px;
-  margin-top: 195px;
-  margin-bottom: 160px;
 }
 
 .c-status-list {
@@ -21,7 +20,6 @@
   width: 100px;
   height: 100px;
   color: var(--gray-dark, #8F979F);
-  flex-shrink: 0;
 }
 .c-status-item--pink {
   border: 2px solid var(--main-2, #FD6F6F);
@@ -42,6 +40,8 @@
   margin-top: 80px;
   background: #FFF5F5;
   padding: 83px 80px 80px;
+  width: 100%;
+  max-width: 900px;
   border-radius: 50px;
 }
 

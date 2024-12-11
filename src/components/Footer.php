@@ -73,6 +73,8 @@
     </div>
 </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
 <script type="text/javascript" src="/assets/js/fv.js"></script>
+<script type="text/javascript" src="/assets/js/scrollTrigger.js"></script>
 </body>
 </html>
