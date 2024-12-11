@@ -125,8 +125,6 @@
 
 .p-story__img {
   max-width: 480px;
-  position: sticky;
-  top: 0;
 }
 .p-story__img--02 {
   max-width: 480px;

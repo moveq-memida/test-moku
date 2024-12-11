@@ -26,20 +26,24 @@ include __DIR__ . '/components/Header.php';
     </div>
     <section class="l-story scroll-trigger--01">
         <div class="p-story__list">
-            <picture class="c-center">
-                <source srcset="/assets/images/brand-story/brand-story01.png 1x, /assets/images/brand-story/brand-story01@2x.png 2x">
-                <img src="/assets/images/brand-story/brand-story01.png 1x" alt="ブランドストーリー01" class="p-story__img .p-story__img--01">
-            </picture>
-            <p class="p-story__txt">私たちが本当に望んでいるのは、<br>「痩せたい」ではなく、<br>「食べたい」です。</p>
+            <div class="scroll-trigger-img--01">
+                <picture class="c-center">
+                    <source srcset="/assets/images/brand-story/brand-story01.png 1x, /assets/images/brand-story/brand-story01@2x.png 2x">
+                    <img src="/assets/images/brand-story/brand-story01.png 1x" alt="ブランドストーリー01" class="p-story__img .p-story__img--01">
+                </picture>
+            </div>
+            <p class="p-story__txt p-story__txt--01">私たちが本当に望んでいるのは、<br>「痩せたい」ではなく、<br>「食べたい」です。</p>
         </div>
     </section>
     <section class="l-story--02 scroll-trigger--02">
         <div class="p-story__list p-story__list--02">
-            <picture class="c-center">
-                <source srcset="/assets/images/brand-story/brand-story02.png 1x, /assets/images/brand-story/brand-story02@2x.png 2x">
-                <img src="/assets/images/brand-story/brand-story02.png 1x" alt="ブランドストーリー02" class="p-story__img p-story__img--02">
-            </picture>
-            <div class="p-story__txt--black">
+            <div class="scroll-trigger-img--02">
+                <picture class="c-center">
+                    <source srcset="/assets/images/brand-story/brand-story02.png 1x, /assets/images/brand-story/brand-story02@2x.png 2x">
+                    <img src="/assets/images/brand-story/brand-story02.png 1x" alt="ブランドストーリー02" class="p-story__img p-story__img--02">
+                </picture>
+             </div>
+            <div class="p-story__txt--black p-story__txt--02">
                 <p>私たちは以前に比べ、自分のカラダと向き合う機会が多くなりました。健康診断や体重計の数値だったり、他人との比較だったり、いろいろなタイミングがあります。</p>
                 <p>それを受けて「美しくなりたい」「健康になりたい」と思うことは自然なことです。</p>
                 <p>しかし、そのせいで私たちは「食べたい気持ちを我慢しないといけない」と、考えるようになってしまいました。</p>
@@ -48,11 +52,13 @@ include __DIR__ . '/components/Header.php';
     </section>
     <section class="l-story--03 scroll-trigger--03">
         <div class="p-story__list p-story__list--03">
-            <picture class="c-center">
-                <source srcset="/assets/images/brand-story/brand-story03.png 1x, /assets/images/brand-story/brand-story03@2x.png 2x">
-                <img src="/assets/images/brand-story/brand-story03.png 1x" alt="ブランドストーリー03" class="p-story__img p-story__img--03">
-            </picture>
-            <div class="p-story__txt--black">
+            <div class="scroll-trigger-img--03">
+                <picture class="c-center">
+                    <source srcset="/assets/images/brand-story/brand-story03.png 1x, /assets/images/brand-story/brand-story03@2x.png 2x">
+                    <img src="/assets/images/brand-story/brand-story03.png 1x" alt="ブランドストーリー03" class="p-story__img p-story__img--03">
+                </picture>
+            </div>
+            <div class="p-story__txt--black p-story__txt--03">
                 <p>勉強や仕事、家のことなど、私たちは毎日が忙しい。そんな日々の中で楽しみになるのは、やっぱり「食べること」です。しかしカラダことを考えると、好き放題に楽しむことはできません。</p>
                 <p>毎日頑張っているのに、食べることまで我慢や努力をしないといけないの？</p>
                 <p>毎日のことだからこそストレスに感じるタイミングも多く、自己嫌悪や罪悪感に悩む機会もたくさんありました。</p>
@@ -61,11 +67,13 @@ include __DIR__ . '/components/Header.php';
     </section>
     <section class="l-story--04 scroll-trigger--04">
         <div class="p-story__list p-story__list--04">
-            <picture class="c-center">
-            <source srcset="/assets/images/brand-story/brand-story04.png 1x, /assets/images/brand-story/brand-story04@2x.png 2x">
-                <img src="/assets/images/brand-story/brand-story04.png 1x" alt="ブランドストーリー03" class="p-story__img p-story__img--04">
-            </picture>
-            <div class="p-story__txt--black">
+            <div class="scroll-trigger-img--04">
+                <picture class="c-center">
+                <source srcset="/assets/images/brand-story/brand-story04.png 1x, /assets/images/brand-story/brand-story04@2x.png 2x">
+                    <img src="/assets/images/brand-story/brand-story04.png 1x" alt="ブランドストーリー03" class="p-story__img p-story__img--04">
+                </picture>
+            </div>
+            <div class="p-story__txt--black p-story__txt--04">
                 <p>忙しい中でも私たちは「痩せたい」「健康になりたい」「美しくなりたい」という目標を持っています。それはとても素敵なこと。</p>
                 <p>食べていたって、怠けていたって、その気持ちがあるだけで私たちは偉いんだと認めたい。</p>
                 <p>そして、「痩せたい」じゃなくて「食べたい」が本当の気持ちなんだと、自分のココロを肯定してあげたい。</p>
