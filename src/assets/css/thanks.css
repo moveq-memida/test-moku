@@ -8,16 +8,18 @@
 }
 
 .l-thanks {
-  margin: 235px auto 160px;
   margin-top: 235px;
   margin-bottom: 160px;
   text-align: center;
 }
 @media only screen and (max-width: 767px) {
   .l-thanks {
-    margin: 230px auto 160px;
-    padding: 0 23px;
+    margin-top: 190px;
   }
+}
+
+.p-thanks {
+  margin-top: 80px;
 }
 
 .p-thanks__title {
@@ -55,6 +57,11 @@
   font-weight: 700;
   line-height: 160%;
 }
+@media only screen and (max-width: 767px) {
+  .p-thanks__business-txt {
+    font-size: 16px;
+  }
+}
 
 .sp {
   display: none;
@@ -62,5 +69,14 @@
 @media only screen and (max-width: 480px) {
   .sp {
     display: block;
+  }
+}
+
+.pc-blk {
+  display: block;
+}
+@media only screen and (max-width: 480px) {
+  .pc-blk {
+    display: none;
   }
 }/*# sourceMappingURL=thanks.css.map */
