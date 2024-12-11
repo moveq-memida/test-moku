@@ -24,7 +24,7 @@ include __DIR__ . '/components/Header.php';
             </p>
         </div>
     </div>
-    <section class="l-story .scroll-trigger--01">
+    <section class="l-story scroll-trigger--01">
         <div class="p-story__list">
             <picture class="c-center">
                 <source srcset="/assets/images/brand-story/brand-story01.png 1x, /assets/images/brand-story/brand-story01@2x.png 2x">
