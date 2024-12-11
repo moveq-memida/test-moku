@@ -10,7 +10,7 @@
     include __DIR__ . '/components/Header.php';
     ?>
 
-    <main>
+    <main class="wide-wrap">
         <section class="l-confirm">
             <div class="p-confirm__title">
                 <h2 class="p-confirm__en">Contact</h2>
@@ -21,67 +21,60 @@
             </div>
         </section>
         <div class="l-status">
-            <!-- ステータス -->
+            <ul class="c-status-list">
+                <li class="c-status-item">ご入力</li>
+                <li><img src="/assets/images/contact/arw-bold.svg" class="c-status-item--arw"></li>
+                <li class="c-status-item c-status-item--pink">ご確認</li>
+                <li><img src="/assets/images/contact/arw-bold.svg" class="c-status-item--arw"></li>
+                <li class="c-status-item c-status-item--gray">送信完了</li>
+            </ul>
         </div>
         <div class="l-form">
-            <form action="" method="post" class="p-form__area">
-                <div class="c-form-group">
-                    <label for="name" class="c-form-label">お名前</label>
-                    <p class=""><span>山田花子</span></p>
+            <div class="o-confirmation">
+                <div class="o-confirmation__group">
+                    <p><strong>お名前</strong></p>
+                    <p id="name">山田花子</p>
                 </div>
-                <div class="c-form-group">
-                    <label for="name" class="c-form-label">お名前ふりがな<span class="c-form-required">必須</span></label>
-                    <input type="text" name="name" id="name" class="c-form-input" placeholder="例）やまだはなこ" required>
+
+                <div class="o-confirmation__group">
+                    <p><strong>お名前ふりがな</strong></p>
+                    <p id="name-kana">やまだはなこ</p>
                 </div>
-                <div class="c-form-group">
-                    <label for="email" class="c-form-label">メールアドレス<span class="c-form-required">必須</span></label>
-                    <input type="email" name="email" id="email" class="c-form-input" placeholder="例）example@mailaddress.co.jp" required>
+
+                <div class="o-confirmation__group">
+                    <p><strong>メールアドレス</strong></p>
+                    <p id="email">example@mailaddress.co.jp</p>
                 </div>
-                <div class="c-form-group">
-                    <label for="email" class="c-form-label">メールアドレス(確認用)<span class="c-form-required">必須</span></label>
-                    <input type="email" name="email" id="email" class="c-form-input" required>
+
+                <div class="o-confirmation__group">
+                    <p><strong>お電話番号</strong></p>
+                    <p id="phone">01234567891</p>
                 </div>
-                <div class="c-form-group">
-                    <label for="tel" class="c-form-label">お電話番号</label>
-                    <input type="tel" name="tel" id="tel" class="c-form-input" placeholder="例）01234567891 (ハイフンなし" required>
+
+                <div class="o-confirmation__group">
+                    <p><strong>お問い合わせ種別</strong></p>
+                    <p id="category">商品に関するご質問・ご意見</p>
                 </div>
-                <div class="c-form-group">
-                    <label for="kind" class="c-form-label">お問い合わせ種別<span class="c-form-required">必須</span></label>
-                    <div class="c-form-group-kind">
-                        <label for="kind" class="c-form-label-kind">
-                            <input type="radio" name="kind" id="kind" class="c-form-input-kind" required>
-                            商品に関するご質問・ご意見
-                        </label>
-                        <label for="kind" class="c-form-label-kind">
-                            <input type="radio" name="kind" id="kind" class="c-form-input-kind" required>
-                            Habit+に関するお問い合わせ
-                        </label>
-                        <label for="kind" class="c-form-label-kind">
-                            <input type="radio" name="kind" id="kind" class="c-form-input-kind" required>
-                            Habit+公式サイトに関するお問い合わせ
-                        </label>
-                        <label for="kind" class="c-form-label-kind">
-                            <input type="radio" name="kind" id="kind" class="c-form-input-kind" required>
-                            その他(お問い合わせ内容に詳細をご記入ください)
-                        </label>
+
+                <div class="o-confirmation__group">
+                    <p><strong>お問い合わせ内容</strong></p>
+                    <p id="message">お問い合わせ内容の文章がここに入りますお問い合わせ内容の文章がここに入りますお問い合わせ内容の文章がここに入りますお問い合わせ内容の文章がここに入りますお問い合わせ内容の文章がここに入りますお問い合わせ内容の文章がここに入りますお問い合わせ内容の文章がここに入りますお問い合わせ内容の文章がここに入りますお問い合わせ内容の文章がここに入ります</p>
+                </div>
+
+                <form action="" method="post">
+                    <input type="hidden" name="name" value="山田花子">
+                    <input type="hidden" name="name-kana" value="やまだはなこ">
+                    <input type="hidden" name="email" value="example@mailaddress.co.jp">
+                    <input type="hidden" name="phone" value="01234567891">
+                    <input type="hidden" name="category" value="商品に関するご質問・ご意見">
+                    <input type="hidden" name="message" value="お問い合わせ内容の文章がここに入りますお問い合わせ内容の文章がここに入りますお問い合わせ内容の文章がここに入りますお問い合わせ内容の文章がここに入りますお問い合わせ内容の文章がここに入りますお問い合わせ内容の文章がここに入りますお問い合わせ内容の文章がここに入りますお問い合わせ内容の文章がここに入りますお問い合わせ内容の文章がここに入ります">
+                    <div class="o-confirmation__actions">
+                        <button type="submit" class="c-button--primary">入力内容を送信する</button>
+                        <button type="button" class="c-button--secondary">入力内容を修正</button>
                     </div>
-                </div>
-                <div class="c-form-group c-form-group-content">
-                    <label for="content" class="c-form-label">お問い合わせ内容<span class="c-form-required">必須</span></label>
-                    <textarea name="content" id="content" class="c-form-textarea" placeholder="お問い合わせ内容をご記入ください。" required></textarea>
-                    <div class="c-form-group-num">
-                        <span>0/1000</span>
-                    </div>
-                </div>
-                <div class="c-policy">
-                    <input type="checkbox" name="policy" id="policy" class="c-form-input-policy" required>
-                    <p class="c-policy-txt"><span>プライバシーポリシー</span>に同意する</p>
-                </div>
-                <div class="c-btn-area">
-                    <button type="submit" class="c-btn c-btn--pink">入力内容を確認する</button>
-                    <button type="button" class="c-btn c-btn--gray">入力内容をリセット</button>
-                </div>
-            </form>
+                </form>
+            </div>
+        </div>
         </div>
     </main>
 
