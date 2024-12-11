@@ -148,6 +148,41 @@
     }
 }
 
+.l-everyone {
+    max-width: 800px;
+    text-align: center;
+    margin: 120px auto 160px;
+}
+
+.p-everyone__txt {
+    color: var(--black);
+    text-align: center;
+    font-family: "Yu Gothic";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 250%;
+    letter-spacing: -0.32px;
+}
+
+.p-everyone__imgArea {
+    position: relative;
+    margin-top: 192px;
+}
+
+.p-everyone__img {
+    max-width: 700px;
+}
+
+.p-everyone__img--mascot {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    max-width: 135px;
+    opacity: 0;
+}
+
 .p-story__txt {
     color: var(--pink);
     font-family: "Yu Gothic";

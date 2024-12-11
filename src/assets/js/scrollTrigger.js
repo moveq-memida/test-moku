@@ -87,3 +87,16 @@ gsap.to('.scroll-trigger-img--04', {
         toggleActions: 'play reverse play reverse',
     }
 });
+
+gsap.to('.p-everyone__img--mascot', {
+    opacity: 1,
+    y: -120,
+    duration: 0.3,
+    ease: "power2.out",
+    scrollTrigger: {
+        trigger: '.l-everyone',
+        start: 'top center',
+        end: '+=1000',
+        toggleActions: 'play reverse play reverse',
+    }
+});

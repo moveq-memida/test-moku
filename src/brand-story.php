@@ -42,7 +42,7 @@ include __DIR__ . '/components/Header.php';
                     <source srcset="/assets/images/brand-story/brand-story02.png 1x, /assets/images/brand-story/brand-story02@2x.png 2x">
                     <img src="/assets/images/brand-story/brand-story02.png 1x" alt="ブランドストーリー02" class="p-story__img p-story__img--02">
                 </picture>
-             </div>
+            </div>
             <div class="p-story__txt--black p-story__txt--02">
                 <p>私たちは以前に比べ、自分のカラダと向き合う機会が多くなりました。健康診断や体重計の数値だったり、他人との比較だったり、いろいろなタイミングがあります。</p>
                 <p>それを受けて「美しくなりたい」「健康になりたい」と思うことは自然なことです。</p>
@@ -69,8 +69,8 @@ include __DIR__ . '/components/Header.php';
         <div class="p-story__list p-story__list--04">
             <div class="scroll-trigger-img--04">
                 <picture class="c-center">
-                <source srcset="/assets/images/brand-story/brand-story04.png 1x, /assets/images/brand-story/brand-story04@2x.png 2x">
-                    <img src="/assets/images/brand-story/brand-story04.png 1x" alt="ブランドストーリー03" class="p-story__img p-story__img--04">
+                    <source srcset="/assets/images/brand-story/brand-story04.png 1x, /assets/images/brand-story/brand-story04@2x.png 2x">
+                    <img src="/assets/images/brand-story/brand-story04.png 1x" alt="ブランドストーリー04" class="p-story__img p-story__img--04">
                 </picture>
             </div>
             <div class="p-story__txt--black p-story__txt--04">
@@ -92,6 +92,22 @@ include __DIR__ . '/components/Header.php';
                     <p>毎日を頑張る人が「食べること」の楽しみまで奪われないように。そんな思いで生まれたのが「Habit+(ハビットプラス)」です。</p>
                     <p>単に痩せることをお手伝いするのではありません。<br>生活週間や環境を大きく変えることなく、<br>ココロとカラダを満たせるものを届けることが私たちの目標です。</p>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="l-everyone">
+        <div class="p-everyone">
+            <p class="p-everyone__txt">ありのままの素敵な自分を受け入れながら、より輝ける人たちであふれる社会になることを願い
+                Habit+はあなたと一緒に成長を続けていきます。</p>
+            <div class="p-everyone__imgArea">
+                <picture>
+                    <source srcset="/assets/images/brand-story/mascot-pass.png 1x, /assets/images/brand-story/mascot-pass@2x.png 2x">
+                    <img src="/assets/images/brand-story/mascot-pass.png 1x" alt="マスコット" class="p-everyone__img--mascot">
+                </picture>
+                <picture>
+                    <source srcset="/assets/images/brand-story/girls-toss.png 1x, /assets/images/brand-story/girls-toss@2x.png 2x">
+                    <img src="/assets/images/brand-story/girls-toss.png 1x" alt="ブランドストーリー05" class="p-everyone__img">
+                </picture>
             </div>
         </div>
     </section>
