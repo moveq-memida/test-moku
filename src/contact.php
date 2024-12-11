@@ -11,12 +11,27 @@ include __DIR__ . '/components/Header.php';
 ?>
 
 <main class="wide-wrap">
+<div class="l-items mt195">
+        <div class="c-hd-title-inner">
+            <h2 class="c-hd-title-en zenkaku">Contact</h2>
+            <p class="c-hd-title-ja">お問い合わせ</p>
+        </div>
+        <div class="c-breadcrumbs">
+            <p class="c-breadcrumbs-inner">
+                <img src="/assets/images/breadcrumbs\home.svg" alt="パンくずリストアイコン" class="c-breadcrumbs-img-home">
+                <img src="/assets/images/breadcrumbs\arw-thin-min.svg" alt="パンくずリスト矢印" class="c-breadcrumbs-img-arw">
+                <span class="c-breadcrumbs-txt">お問い合わせ</span>
+            </p>
+        </div>
+    </div>
     <div class="l-contact">
         <div class="c-status">
             <ul class="c-status-list">
                 <li class="c-status-item c-status-item--pink">ご入力</li>
-                <li class="c-status-item">ご確認</li>
-                <li class="c-status-item">送信完了</li>
+                <li><img src="/assets/images/contact\arw-bold.svg" class="c-status-item--arw"></li>
+                <li class="c-status-item c-status-item--gray">ご確認</li>
+                <li><img src="/assets/images/contact\arw-bold.svg" class="c-status-item--arw"></li>
+                <li class="c-status-item c-status-item--gray">送信完了</li>
             </ul>
         </div>
         <div class="c-form-wrapper">
@@ -39,7 +54,7 @@ include __DIR__ . '/components/Header.php';
                 </div>
                 <div class="c-form-group">
                     <label for="tel" class="c-form-label">お電話番号</label>
-                    <input type="tel" name="tel" id="tel" class="c-form-input" placeholder="例）01234567891 (ハイフンなし" required>
+                    <input type="tel" name="tel" id="tel" class="c-form-input" placeholder="例）01234567891 (ハイフンなし)" required>
                 </div>
                 <div class="c-form-group">
                     <label for="kind" class="c-form-label">お問い合わせ種別<span class="c-form-required">必須</span></label>

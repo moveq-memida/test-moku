@@ -1,8 +1,8 @@
 @charset "utf-8";
 
 .l-contact {
-    padding: 0 190px;
-    margin: 195px auto 160px;
+    margin-top: 120px;
+    margin-bottom: 160px;
 }
 
 .c-status-list {
@@ -30,6 +30,10 @@
         border: 2px solid var(--pink);
         color: var(--pink);
     }
+    &--gray {
+        border: 2px solid #8F979F;
+        color: #8F979F;
+    }
     @media only screen and (max-width: 767px) {
         width: 80px;
         height: 80px;
@@ -47,8 +51,6 @@
     margin-top: 80px;
     background: #FFF5F5;
     padding: 83px 80px 80px;
-    width: 100%;
-    max-width: 900px;
     border-radius: 50px;
 }
 
