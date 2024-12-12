@@ -11,15 +11,19 @@
     ?>
 
     <main class="wide-wrap">
-        <section class="l-confirm">
-            <div class="p-confirm__title">
-                <h2 class="p-confirm__en">Contact</h2>
-                <p class="p-confirm__ja">お問い合わせ</p>
+        <div class="l-items mt195">
+            <div class="c-hd-title-inner">
+                <h2 class="c-hd-title-en zenkaku">Contact</h2>
+                <p class="c-hd-title-ja">お問い合わせ</p>
             </div>
-            <div class="p-confirm__bread">
-                <span class="p-confirm___bread-txt">お問い合わせ</span>
+            <div class="c-breadcrumbs">
+                <p class="c-breadcrumbs-inner">
+                    <img src="/assets/images/breadcrumbs\home.svg" alt="パンくずリストアイコン" class="c-breadcrumbs-img-home">
+                    <img src="/assets/images/breadcrumbs\arw-thin-min.svg" alt="パンくずリスト矢印" class="c-breadcrumbs-img-arw">
+                    <span class="c-breadcrumbs-txt">お問い合わせ</span>
+                </p>
             </div>
-        </section>
+        </div>
         <div class="l-status">
             <ul class="c-status-list">
                 <li class="c-status-item">ご入力</li>
@@ -29,7 +33,7 @@
                 <li class="c-status-item c-status-item--gray">送信完了</li>
             </ul>
         </div>
-        <div class="l-form">
+        <div class="l-confirmForm">
             <div class="o-confirmation">
                 <div class="o-confirmation__group">
                     <p><strong>お名前</strong></p>
@@ -69,8 +73,8 @@
                     <input type="hidden" name="category" value="商品に関するご質問・ご意見">
                     <input type="hidden" name="message" value="お問い合わせ内容の文章がここに入りますお問い合わせ内容の文章がここに入りますお問い合わせ内容の文章がここに入りますお問い合わせ内容の文章がここに入りますお問い合わせ内容の文章がここに入りますお問い合わせ内容の文章がここに入りますお問い合わせ内容の文章がここに入りますお問い合わせ内容の文章がここに入りますお問い合わせ内容の文章がここに入ります">
                     <div class="o-confirmation__actions">
-                        <button type="submit" class="c-button--primary">入力内容を送信する</button>
-                        <button type="button" class="c-button--secondary">入力内容を修正</button>
+                        <button type="submit" class="c-button c-button--primary">入力内容を送信する</button>
+                        <button type="button" class="c-button c-button--secondary">入力内容を修正</button>
                     </div>
                 </form>
             </div>
@@ -82,3 +86,4 @@
     include __DIR__ . '/components/Cta.php';
     include __DIR__ . '/components/Footer.php';
     ?>
+    

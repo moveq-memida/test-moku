@@ -223,15 +223,6 @@ input[type="checkbox"] {
     border-bottom: 1px solid #434D54;
 }
 
-.l-form {
-    width: 100%;
-    max-width: 900px;
-    padding: 83px 100px 80px;
-    margin: 160px auto 0;
-    border-radius: 50px;
-    background: #FFF5F5;
-}
-
 .l-contact {
     color: var(--txt, #434D54);
     font-family: "Yu Gothic";
@@ -239,4 +230,99 @@ input[type="checkbox"] {
     font-style: normal;
     font-weight: 700;
     line-height: 130%;
+}
+
+.l-confirmForm {
+    border-radius: 50px;
+    background: #FFF5F5;
+    padding: 83px 80px;
+    margin: 80px 0 160px;
+    @media only screen and (max-width: 767px) {
+        padding: 56px 24px 59px;
+    }
+}
+
+.o-confirmation__group {
+    p {
+        color: var(--black);
+        font-family: "Yu Gothic";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%;
+        &:first-child {
+            padding-left: 13px;
+            position: relative;
+            &::before {
+                position: absolute;
+                content: '';
+                width: 5px;
+                height: 5px;
+                border-radius: 50%;
+                background: var(--pink);
+                left: 0;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+            }
+        }
+        &:last-child {
+            margin-top: 24px;
+            @media only screen and (max-width: 767px) {
+                margin-top: 16px;
+            }
+        }
+    }
+    &:not(:first-child) {
+        margin-top: 48px;
+        @media only screen and (max-width: 767px) {
+            margin-top: 32px;
+        }
+    }
+}
+
+.o-confirmation__actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 64px;
+    @media only screen and (max-width: 767px) {
+        flex-direction: column;
+        margin-top: 48px;
+    }
+    .c-button {
+        width: 300px;
+        color: var(--white);
+        padding: 15px 78px 14px;
+        border-radius: 25px;
+        border: none;
+        font-family: "Yu Gothic";
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%;
+        position: relative;
+        &--primary {
+            background: #69AF43;
+
+        }
+        &--secondary {
+            background: #8F979F;
+        }
+        &::before {
+            position: absolute;
+            content: '';
+            background: url(../images/contact/arw-bold.svg) no-repeat;
+            width: 10px;
+            height: 16px;
+            flex-shrink: 0;
+            right: 16px;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            @media only screen and (max-width: 767px) {
+                right: 17px;
+            }
+        }
+    }
 }

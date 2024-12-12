@@ -519,6 +519,7 @@
 /* margin */
 .mt195 {
   margin-top: 195px;
+  margin-bottom: 120px;
 }
 @media only screen and (max-width: 767px) {
   .mt195 {
