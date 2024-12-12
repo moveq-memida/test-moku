@@ -309,12 +309,23 @@ input[type=checkbox] {
   font-weight: 700;
   line-height: 130%;
   position: relative;
+  transition: 0.2s;
 }
 .o-confirmation__actions .c-button--primary {
   background: #69AF43;
 }
+.o-confirmation__actions .c-button--primary:hover {
+  background: var(--pink);
+}
 .o-confirmation__actions .c-button--secondary {
   background: #8F979F;
+}
+.o-confirmation__actions .c-button--secondary:hover {
+  color: #8F979F;
+  background: var(--white);
+}
+.o-confirmation__actions .c-button--secondary:hover::before {
+  background: url(../images/contact/arw-bold-hover.svg) no-repeat;
 }
 .o-confirmation__actions .c-button::before {
   position: absolute;

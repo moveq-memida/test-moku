@@ -302,12 +302,22 @@ input[type="checkbox"] {
         font-weight: 700;
         line-height: 130%;
         position: relative;
+        transition: .2s;
         &--primary {
             background: #69AF43;
-
+            &:hover {
+                background: var(--pink);
+            }
         }
         &--secondary {
             background: #8F979F;
+            &:hover {
+                color: #8F979F;
+                background: var(--white);
+                &::before {
+                    background: url(../images/contact/arw-bold-hover.svg) no-repeat;
+                }
+            }
         }
         &::before {
             position: absolute;
