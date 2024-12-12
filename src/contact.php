@@ -87,7 +87,7 @@ include __DIR__ . '/components/Header.php';
                 <div class="c-policy">
                 <label class="c-policy-txt check-box">
                     <input type="checkbox" name="policy" id="policy" class="c-form-input-policy" required>
-                    <span class="text">プライバシーポリシーに同意する</span>
+                    <span class="text"><a>プライバシーポリシー</a>に同意する</span>
                 </label>
                   
                 </div>

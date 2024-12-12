@@ -56,11 +56,18 @@
     background: #FFF5F5;
     padding: 83px 80px 80px;
     border-radius: 50px;
+    @media only screen and (max-width: 767px) {
+        padding: 56px 24px;
+        border-radius: 25px;
+    }
 }
 
 .c-form-group {
     &:not(:first-child) {
         margin-top: 51px;
+        @media only screen and (max-width: 767px) {
+            margin-top: 35px;
+        }
     }
 }
 
@@ -100,6 +107,11 @@
     font-style: normal;
     font-weight: 700;
     line-height: 130%;
+    box-sizing: border-box;
+    @media only screen and (max-width: 767px) {
+        padding: 15px 16px 14px;
+        margin-top: 17px;
+    }
 }
 
 .c-form-group-kind {
@@ -116,6 +128,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 130%;
+    display: block;
 }
 
 .c-form-input-kind {
@@ -150,7 +163,11 @@
     font-style: normal;
     font-weight: 700;
     line-height: 160%;
-    box-sizing: border-box
+    box-sizing: border-box;
+    @media only screen and (max-width: 767px) {
+        margin-top: 16px;
+        padding: 16px;
+    }
 }
 
 .c-form-group-num {
@@ -209,6 +226,9 @@
     justify-content: center;
     align-items: center;
     margin-top: 48px;
+    @media only screen and (max-width: 767px) {
+        margin-top: 61px;
+    }
 }
 
 input[type="checkbox"] {
@@ -226,10 +246,6 @@ input[type="checkbox"] {
     font-style: normal;
     font-weight: 700;
     line-height: 130%;
-}
-
-.c-policy-txt span {
-    border-bottom: 1px solid #434D54;
 }
 
 .l-contact {
@@ -411,7 +427,6 @@ input[type=radio] {
     display: none;
 }
 
-
 .check-box input+.text:before {
     content: "";
     display: inline-block;
@@ -496,4 +511,8 @@ input[type=radio] {
             }
         }
     }
+}
+
+.text a {
+    border-bottom: 1px solid;
 }
