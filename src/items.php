@@ -8,13 +8,21 @@ $og_title = "TOP |【公式】habit+";
 $og_description = "Habit+の公式サイトへようこそ。";
 
 include __DIR__ . '/components/Header.php';
-// require_once 'components/breadcrumbs.php';
-// require_once 'components/status.php';
-// require_once 'components/title.php';
+require_once 'components/breadcrumbs.php';
+require_once 'components/status.php';
+require_once 'components/title.php';
 ?>
 
-<main class="wide-wrap">
-    <div class="l-items mt195">
+<main class="l-main wide-wrap">
+    <section class="l-main__header">
+        <?php renderTitle('Our items', 'アイテムご紹介'); ?>
+        <?php renderBreadcrumbs([
+            ['icon' => '/assets/images/breadcrumbs/home.svg', 'alt' => 'ホーム'],
+            ['text' => 'アイテムご紹介']
+        ]); ?>
+    </section>
+
+    <!-- <div class="l-items mt195">
         <div class="c-hd-title-inner">
             <h2 class="c-hd-title-en zenkaku">Our items</h2>
             <p class="c-hd-title-ja">アイテムご紹介</p>
@@ -26,7 +34,7 @@ include __DIR__ . '/components/Header.php';
                 <span class="c-breadcrumbs-txt">アイテムご紹介</span>
             </p>
         </div>
-    </div>
+    </div> -->
     <section class="l-food">
         <div class="secttl-box">
             <h2 class="sec-ttl zenkaku">Food/Drink</h2>
