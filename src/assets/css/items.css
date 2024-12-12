@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --black: #434D54;
   --gray-dark: #8F979F;
@@ -543,4 +544,36 @@
 
 .pb160 {
   padding-bottom: 160px;
+}
+
+/* アンバサダー */
+.c-section-header {
+  color: var(--pink);
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+}
+.c-section-header__title {
+  font-family: "Zen Kaku Gothic New";
+  font-size: 48px;
+  line-height: 130%;
+}
+.c-section-header__subtitle {
+  font-family: "Yu Gothic";
+  font-size: 18px;
+  line-height: 130%;
+  margin-top: 8px;
+}
+
+.c-flow {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.c-flow__image {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=items.css.map */

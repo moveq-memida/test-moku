@@ -47,6 +47,64 @@ include __DIR__ . '/components/Header.php';
                 <p>こんな気持ちを持っている方と共に、Habit+は成長していきたいです。<br>
                     あなたのご応募お待ちしております！</p>
             </div>
+            <section class="l-section l-section--flow wide-wrap">
+                <div class="l-container">
+                    <div class="c-section-header">
+                        <h3 class="c-section-header__title">Entry Flow</h3>
+                        <p class="c-section-header__subtitle">応募の流れ</p>
+                    </div>
+                    <ul class="c-flow">
+                        <li class="c-flow__item">
+                            <picture class="c-flow__image-wrapper">
+                                <source srcset="/assets/images/ambassador/entry.png 1x, /assets/images/ambassador/entry@2x.png 2x">
+                                <img
+                                    src="/assets/images/ambassador/entry@2x.png"
+                                    alt="応募"
+                                    class="c-flow__image">
+                            </picture>
+                            <h4 class="c-flow__step">step１：<span class="c-flow__step-highlight">応募</span></h4>
+                            <p class="c-flow__description">
+                                このページの最下部にあるエントリーフォームより、必要事項を記入して送信してください。
+                            </p>
+                            <p class="c-flow__note">
+                                ※迷惑メール等の受信拒否設定をされている方は@move-q.comのドメインからのメールが受信されるよう、設定をご確認ください。
+                            </p>
+                        </li>
+                        <li class="c-flow__arrow">
+                            <img src="/assets/images/ambassador/arw.svg" alt="Arrow" class="c-flow__arrow-image">
+                        </li>
+                        <li class="c-flow__item">
+                            <picture class="c-flow__image-wrapper">
+                                <source srcset="/assets/images/ambassador/examination.png 1x, /assets/images/ambassador/examination@2x.png 2x">
+                                <img
+                                    src="/assets/images/ambassador/examination@2x.png"
+                                    alt="審査"
+                                    class="c-flow__image">
+                            </picture>
+                            <h4 class="c-flow__step">step２：<span class="c-flow__step-highlight">審査</span></h4>
+                            <p class="c-flow__description">
+                                記入事項などの内容をもとに審査をおこない、審査通過者にご連絡をします。
+                            </p>
+                        </li>
+                        <li class="c-flow__arrow">
+                            <img src="/assets/images/ambassador/arw.svg" alt="Arrow" class="c-flow__arrow-image">
+                        </li>
+                        <li class="c-flow__item">
+                            <picture class="c-flow__image-wrapper">
+                                <source srcset="/assets/images/ambassador/action.png 1x, /assets/images/ambassador/action@2x.png 2x">
+                                <img
+                                    src="/assets/images/ambassador/action@2x.png"
+                                    alt="活動開始"
+                                    class="c-flow__image">
+                            </picture>
+                            <h4 class="c-flow__step">step３：<span class="c-flow__step-highlight">活動開始</span></h4>
+                            <p class="c-flow__description">
+                                アンバサダー就任！様々な活動を通してHabit+(ハビットプラス)の魅力を発信していただきます。
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
         </div>
     </div>
 </main>
