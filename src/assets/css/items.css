@@ -165,6 +165,11 @@
   text-align: center;
   margin: 120px auto 160px;
 }
+@media only screen and (max-width: 767px) {
+  .l-everyone {
+    margin: 214px auto 160px;
+  }
+}
 
 .p-everyone__txt {
   color: var(--black);
@@ -180,6 +185,11 @@
 .p-everyone__imgArea {
   position: relative;
   margin-top: 192px;
+}
+@media only screen and (max-width: 767px) {
+  .p-everyone__imgArea {
+    margin-inline: calc(50% - 50vw);
+  }
 }
 
 .p-everyone__img {

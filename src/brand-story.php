@@ -29,7 +29,7 @@ include __DIR__ . '/components/Header.php';
             <div class="scroll-trigger-img--01">
                 <picture class="c-center">
                     <source srcset="/assets/images/brand-story/brand-story01.png 1x, /assets/images/brand-story/brand-story01@2x.png 2x">
-                    <img src="/assets/images/brand-story/brand-story01.png 1x" alt="ブランドストーリー01" class="p-story__img .p-story__img--01">
+                    <img src="/assets/images/brand-story/brand-story01@2x.png" alt="ブランドストーリー01" class="p-story__img .p-story__img--01">
                 </picture>
             </div>
             <p class="p-story__txt p-story__txt--01">私たちが本当に望んでいるのは、<br>「痩せたい」ではなく、<br>「食べたい」です。</p>
@@ -40,7 +40,7 @@ include __DIR__ . '/components/Header.php';
             <div class="scroll-trigger-img--02">
                 <picture class="c-center">
                     <source srcset="/assets/images/brand-story/brand-story02.png 1x, /assets/images/brand-story/brand-story02@2x.png 2x">
-                    <img src="/assets/images/brand-story/brand-story02.png 1x" alt="ブランドストーリー02" class="p-story__img p-story__img--02">
+                    <img src="/assets/images/brand-story/brand-story02@2x.png" alt="ブランドストーリー02" class="p-story__img p-story__img--02">
                 </picture>
             </div>
             <div class="p-story__txt--black p-story__txt--02">
@@ -55,7 +55,7 @@ include __DIR__ . '/components/Header.php';
             <div class="scroll-trigger-img--03">
                 <picture class="c-center">
                     <source srcset="/assets/images/brand-story/brand-story03.png 1x, /assets/images/brand-story/brand-story03@2x.png 2x">
-                    <img src="/assets/images/brand-story/brand-story03.png 1x" alt="ブランドストーリー03" class="p-story__img p-story__img--03">
+                    <img src="/assets/images/brand-story/brand-story03@2x.png" alt="ブランドストーリー03" class="p-story__img p-story__img--03">
                 </picture>
             </div>
             <div class="p-story__txt--black p-story__txt--03">
@@ -70,7 +70,7 @@ include __DIR__ . '/components/Header.php';
             <div class="scroll-trigger-img--04">
                 <picture class="c-center">
                     <source srcset="/assets/images/brand-story/brand-story04.png 1x, /assets/images/brand-story/brand-story04@2x.png 2x">
-                    <img src="/assets/images/brand-story/brand-story04.png 1x" alt="ブランドストーリー04" class="p-story__img p-story__img--04">
+                    <img src="/assets/images/brand-story/brand-story04@2x.png" alt="ブランドストーリー04" class="p-story__img p-story__img--04">
                 </picture>
             </div>
             <div class="p-story__txt--black p-story__txt--04">
@@ -83,8 +83,8 @@ include __DIR__ . '/components/Header.php';
     <section class="l-story section-full p-story__list--bottom">
         <div class="p-story__list p-story__list--05 wide-wrap">
             <picture class="c-center">
-                <source srcset="/assets/images/brand-story/brand-story-logo.png" media="(max-width: 768px)" />
-                <img src="/assets/images/brand-story/brand-story-logo.png" alt="ブランドストーリーロゴ" class="p-story__img p-story__img--logo">
+                <source srcset="/assets/images/brand-story/brand-story-logo.png 1x, /assets/images/brand-story/brand-story-logo@2x.png 2x">
+                <img src="/assets/images/brand-story/brand-story-logo@2x.png" alt="ブランドストーリーロゴ" class="p-story__img p-story__img--logo">
             </picture>
             <div class="p-story__txt--pink">
                 <p class="p-story__txt">Habit+(ハビットプラス)は、<br>私たちの食べたい気持ちを肯定し、<br>サポートしていきます。</p>
@@ -97,16 +97,18 @@ include __DIR__ . '/components/Header.php';
     </section>
     <section class="l-everyone">
         <div class="p-everyone">
-            <p class="p-everyone__txt">ありのままの素敵な自分を受け入れながら、より輝ける人たちであふれる社会になることを願い
+            <p class="p-everyone__txt">ありのままの素敵な自分を受け入れながら、<br class="pc">より輝ける人たちであふれる社会になることを願い
                 Habit+はあなたと一緒に成長を続けていきます。</p>
             <div class="p-everyone__imgArea">
                 <picture>
-                    <source srcset="/assets/images/brand-story/mascot-pass.png 1x, /assets/images/brand-story/mascot-pass@2x.png 2x">
-                    <img src="/assets/images/brand-story/mascot-pass.png 1x" alt="マスコット" class="p-everyone__img--mascot">
+                    <source media="(min-width: 768px)" srcset="/assets/images/brand-story/mascot-pass.png 1x, /assets/images/brand-story/mascot-pass@2x.png 2x">
+                    <source media="(max-width: 767px)" srcset="/assets/images/brand-story/mascot-pass-sp.png 1x, /assets/images/brand-story/mascot-pass-sp@2x.png 2x">
+                    <img src="/assets/images/brand-story/mascot-pass@2x.png" alt="マスコット" class="p-everyone__img--mascot">
                 </picture>
                 <picture>
-                    <source srcset="/assets/images/brand-story/girls-toss.png 1x, /assets/images/brand-story/girls-toss@2x.png 2x">
-                    <img src="/assets/images/brand-story/girls-toss.png 1x" alt="ブランドストーリー05" class="p-everyone__img">
+                    <source media="(min-width: 768px)" srcset="/assets/images/brand-story/girls-toss.png 1x, /assets/images/brand-story/girls-toss@2x.png 2x">
+                    <source media="(max-width: 767px)" srcset="/assets/images/brand-story/girls-toss-sp.png 1x, /assets/images/brand-story/girls-toss-sp@2x.png 2x">
+                    <img src="/assets/images/brand-story/girls-toss@2x.png" alt="ブランドストーリー05" class="p-everyone__img">
                 </picture>
             </div>
         </div>

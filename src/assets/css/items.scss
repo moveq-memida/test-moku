@@ -152,6 +152,9 @@
     max-width: 800px;
     text-align: center;
     margin: 120px auto 160px;
+    @media only screen and (max-width: 767px) {
+        margin: 214px auto 160px;
+    }
 }
 
 .p-everyone__txt {
@@ -168,6 +171,9 @@
 .p-everyone__imgArea {
     position: relative;
     margin-top: 192px;
+    @media only screen and (max-width: 767px) {
+        margin-inline: calc(50% - 50vw);
+    }
 }
 
 .p-everyone__img {
