@@ -18,8 +18,8 @@
             </div>
             <div class="c-breadcrumbs">
                 <p class="c-breadcrumbs-inner">
-                    <img src="/assets/images/breadcrumbs\home.svg" alt="パンくずリストアイコン" class="c-breadcrumbs-img-home">
-                    <img src="/assets/images/breadcrumbs\arw-thin-min.svg" alt="パンくずリスト矢印" class="c-breadcrumbs-img-arw">
+                    <img src="/assets/images/breadcrumbs/home.svg" alt="パンくずリストアイコン" class="c-breadcrumbs-img-home">
+                    <img src="/assets/images/breadcrumbs/arw-thin-min.svg" alt="パンくずリスト矢印" class="c-breadcrumbs-img-arw">
                     <span class="c-breadcrumbs-txt">お問い合わせ</span>
                 </p>
             </div>

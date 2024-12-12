@@ -322,7 +322,7 @@ input[type="checkbox"] {
         &::before {
             position: absolute;
             content: '';
-            background: url(../images/contact/arw-bold.svg) no-repeat;
+            background: url(../images/contact/arw-bold-white.svg) no-repeat;
             width: 10px;
             height: 16px;
             flex-shrink: 0;
@@ -335,4 +335,8 @@ input[type="checkbox"] {
             }
         }
     }
+}
+
+#message {
+    line-height: 160%;
 }

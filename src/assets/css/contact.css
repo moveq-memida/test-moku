@@ -330,7 +330,7 @@ input[type=checkbox] {
 .o-confirmation__actions .c-button::before {
   position: absolute;
   content: "";
-  background: url(../images/contact/arw-bold.svg) no-repeat;
+  background: url(../images/contact/arw-bold-white.svg) no-repeat;
   width: 10px;
   height: 16px;
   flex-shrink: 0;
@@ -343,4 +343,8 @@ input[type=checkbox] {
   .o-confirmation__actions .c-button::before {
     right: 17px;
   }
+}
+
+#message {
+  line-height: 160%;
 }/*# sourceMappingURL=contact.css.map */

@@ -15,9 +15,9 @@ include __DIR__ . '/components/Header.php';
         <div class="c-status">
             <ul class="c-status-list">
                 <li class="c-status-item">ご入力</li>
-                <li><img src="/assets/images/contact\arw-bold.svg" class="c-status-item--arw"></li>
+                <li><img src="/assets/images/contact/arw-bold.svg" class="c-status-item--arw"></li>
                 <li class="c-status-item">ご確認</li>
-                <li><img src="/assets/images/contact\arw-bold.svg" class="c-status-item--arw"></li>
+                <li><img src="/assets/images/contact/arw-bold.svg" class="c-status-item--arw"></li>
                 <li class="c-status-item c-status-item--pink">送信完了</li>
             </ul>
         </div>
