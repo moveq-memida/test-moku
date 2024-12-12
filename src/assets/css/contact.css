@@ -411,4 +411,64 @@ input[type=radio] {
   background-image: url(../images/contact/checked.svg), url(../images/contact/check.svg);
   background-size: 150%, 100%;
   background-position: top 40% left 50%, 0 0;
+}
+
+.c-btn-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 64px;
+}
+@media only screen and (max-width: 767px) {
+  .c-btn-area {
+    flex-direction: column;
+    margin-top: 48px;
+  }
+}
+.c-btn-area .c-btn {
+  width: 300px;
+  color: var(--white);
+  padding: 15px 78px 14px;
+  border-radius: 25px;
+  border: none;
+  font-family: "Yu Gothic";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  position: relative;
+  transition: 0.2s;
+}
+.c-btn-area .c-btn--pink {
+  background: var(--pink);
+}
+.c-btn-area .c-btn--pink:hover {
+  background: #69AF43;
+}
+.c-btn-area .c-btn--gray {
+  background: #8F979F;
+}
+.c-btn-area .c-btn--gray:hover {
+  color: #8F979F;
+  background: var(--white);
+}
+.c-btn-area .c-btn--gray:hover::before {
+  background: url(../images/contact/arw-bold-hover.svg) no-repeat;
+}
+.c-btn-area .c-btn::before {
+  position: absolute;
+  content: "";
+  background: url(../images/contact/arw-bold-white.svg) no-repeat;
+  width: 10px;
+  height: 16px;
+  flex-shrink: 0;
+  right: 16px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+@media only screen and (max-width: 767px) {
+  .c-btn-area .c-btn::before {
+    right: 17px;
+  }
 }/*# sourceMappingURL=contact.css.map */
