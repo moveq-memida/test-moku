@@ -11,7 +11,7 @@ include __DIR__ . '/components/Header.php';
 ?>
 
 <main class="wide-wrap">
-<div class="l-items mt195">
+    <div class="l-items mt195">
         <div class="c-hd-title-inner">
             <h2 class="c-hd-title-en zenkaku">Contact</h2>
             <p class="c-hd-title-ja">お問い合わせ</p>
@@ -59,34 +59,37 @@ include __DIR__ . '/components/Header.php';
                 <div class="c-form-group">
                     <label for="kind" class="c-form-label">お問い合わせ種別<span class="c-form-required">必須</span></label>
                     <div class="c-form-group-kind">
-                        <label for="kind" class="c-form-label-kind">
-                            <input type="radio" name="kind" id="kind" class="c-form-input-kind" required>
-                            商品に関するご質問・ご意見
-                        </label>
-                        <label for="kind" class="c-form-label-kind">
-                            <input type="radio" name="kind" id="kind" class="c-form-input-kind" required>
-                            Habit+に関するお問い合わせ
-                        </label>
-                        <label for="kind" class="c-form-label-kind">
-                            <input type="radio" name="kind" id="kind" class="c-form-input-kind" required>
-                            Habit+公式サイトに関するお問い合わせ
-                        </label>
-                        <label for="kind" class="c-form-label-kind">
-                            <input type="radio" name="kind" id="kind" class="c-form-input-kind" required>
-                            その他(お問い合わせ内容に詳細をご記入ください)
-                        </label>
+                        <div class="c-form-group-kind-item">
+                            <input type="radio" name="kind" id="kind01" class="c-form-input-kind" required>
+                            <label for="kind01" class="c-form-label-kind">商品に関するご質問・ご意見</label>
+                        </div>
+                        <div class="c-form-group-kind-item">
+                            <input type="radio" name="kind" id="kind02" class="c-form-input-kind" required>
+                            <label for="kind02" class="c-form-label-kind">Habit+に関するお問い合わせ</label>
+                        </div>
+                        <div class="c-form-group-kind-item">
+                            <input type="radio" name="kind" id="kind03" class="c-form-input-kind" required>
+                            <label for="kind03" class="c-form-label-kind">Habit+公式サイトに関するお問い合わせ</label>
+                        </div>
+                        <div class="c-form-group-kind-item">
+                            <input type="radio" name="kind" id="kind04" class="c-form-input-kind" required>
+                            <label for="kind04" class="c-form-label-kind">その他(お問い合わせ内容に詳細をご記入ください)</label>
+                        </div>
                     </div>
                 </div>
                 <div class="c-form-group c-form-group-content">
                     <label for="content" class="c-form-label">お問い合わせ内容<span class="c-form-required">必須</span></label>
-                    <textarea name="content" id="content" class="c-form-textarea" placeholder="お問い合わせ内容をご記入ください。"  required></textarea>
+                    <textarea name="content" id="content" class="c-form-textarea" placeholder="お問い合わせ内容をご記入ください。" required></textarea>
                     <div class="c-form-group-num">
                         <span>0/1000</span>
                     </div>
                 </div>
                 <div class="c-policy">
+                <label class="c-policy-txt check-box">
                     <input type="checkbox" name="policy" id="policy" class="c-form-input-policy" required>
-                    <p class="c-policy-txt"><span>プライバシーポリシー</span>に同意する</p>
+                    <span class="text">プライバシーポリシーに同意する</span>
+                </label>
+                  
                 </div>
                 <div class="c-btn-area">
                     <button type="submit" class="c-btn c-btn--pink">入力内容を確認する</button>
