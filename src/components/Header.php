@@ -71,12 +71,12 @@
                     <span id="detail-menu">
                         <a href="">ドリンク・フード</a><a href="">サプリメント</a>
                     </span>
-                    <li><a href="/">ブランドストーリー</a></li>
+                    <li><a href="brand-story.php">ブランドストーリー</a></li>
                     <li><a href="/">マスコットについて</a></li>
-                    <li><a href="/">アンバサダー募集</a></li>
-                    <li><a href="/">サポート</a></li>
+                    <li><a href="ambassador.php">アンバサダー募集</a></li>
+                    <li><a href="support.php">サポート</a></li>
                     <li><a href="/">新着情報</a></li>
-                    <li><a href="/">お客様の声</a></li>
+                    <li><a href="voice.php">お客様の声</a></li>
                     <span id="detail-menu" class="legal-note">
                         <a href="">特定商取引に関する法律に基づく表記</a>
                         <a href="">プライバシーポリシー</a>
