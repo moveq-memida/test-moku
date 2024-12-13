@@ -10,7 +10,7 @@ $og_description = "Habit+の公式サイトへようこそ。";
 include __DIR__ . '/components/Header.php';
 ?>
 
-<main class="c-bg-yellow pt195 pb160">
+<main class="c-bg-yellow-voice pt195 pb160">
     <div class="l-voice wide-wrap">
         <div class="c-hd-title-inner">
             <h2 class="c-hd-title-en zenkaku">Voice</h2>
