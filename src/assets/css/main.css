@@ -136,6 +136,9 @@
 .p-faq__item:not(:last-child) {
   margin-bottom: 24px;
 }
+.p-faq__item:nth-of-type(3) .p-faq__answer {
+  align-items: flex-start;
+}
 .p-faq__question {
   display: flex;
   align-items: center;
