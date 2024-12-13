@@ -18,6 +18,16 @@
   margin-bottom: initial;
 }
 
+.c-bg-yellow .l-main__header {
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+.p-mainVisual__txt {
+  opacity: 0;
+  transform: translateY(50px);
+}
+
 /* タイトル */
 .p-title {
   color: var(--pink);
@@ -84,9 +94,15 @@
   font-weight: 700;
   line-height: 250%;
   letter-spacing: -0.32px;
+  opacity: 0;
+  transform: translateY(20px);
 }
 .p-ambassador__text:not(:first-child) {
   margin-top: 32px;
+}
+.p-ambassador img {
+  opacity: 0;
+  transform: translateY(20px);
 }
 .p-ambassador__img--01 {
   position: absolute;
@@ -172,6 +188,8 @@
 }
 .p-activities__item {
   text-align: center;
+  opacity: 0;
+  transform: translateY(20px);
 }
 .p-activities__item:first-child .p-activities__description {
   color: #526FD3;
@@ -246,6 +264,8 @@
 .p-entry-flow__item {
   text-align: center;
   position: relative;
+  opacity: 0;
+  transform: translateY(20px);
 }
 .p-entry-flow__item:nth-child(2)::before {
   position: absolute;
@@ -312,6 +332,8 @@
 }
 .p-faq__list {
   margin-top: 64px;
+  opacity: 0;
+  transform: translateY(20px);
 }
 .p-faq__item {
   background: var(--white);

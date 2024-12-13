@@ -351,25 +351,6 @@ include __DIR__ . '/components/header.php';
         }
     }, false);
 </script>
-<script>
-    gsap.fromTo(
-  ".l-main__header",
-  {
-    y: 100, // アニメーション開始前の縦位置(下に100px)
-    autoAlpha: 0, // アニメーション開始前は透明
-  },
-  {
-    y: 0, // アニメーション後の縦位置(上に100px)
-    autoAlpha: 1, // アニメーション後に出現(透過率0)
-    scrollTrigger: {
-      trigger: ".l-main__header", // アニメーションが始まるトリガーとなる要素
-      toggleActions: "play none none reverse", // 上スクロールで戻る
-      start: "top center", // アニメーションの開始位置
-      markers: true, // マーカー表示
-    },
-  }
-);
-</script>
 
 <?php
 include __DIR__ . '/components/Footer.php';

@@ -22,6 +22,16 @@
     margin-bottom: initial;
 }
 
+.c-bg-yellow .l-main__header {
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.p-mainVisual__txt {
+    opacity: 0;
+    transform: translateY(50px);
+}
+
 /* タイトル */
 .p-title {
     color: var(--pink);
@@ -97,10 +107,16 @@
         font-weight: 700;
         line-height: 250%;
         letter-spacing: -0.32px;
+        opacity: 0;
+        transform: translateY(20px);
 
         &:not(:first-child) {
             margin-top: 32px;
         }
+    }
+    img {
+        opacity: 0;
+        transform: translateY(20px);
     }
     &__img {
 
@@ -198,6 +214,8 @@
 
     &__item {
         text-align: center;
+        opacity: 0;
+        transform: translateY(20px);
 
         &:first-child {
             .p-activities {
@@ -295,6 +313,8 @@
     &__item {
         text-align: center;
         position: relative;
+        opacity: 0;
+        transform: translateY(20px); 
 
         &:nth-child(2) {
 
@@ -372,6 +392,8 @@
 
     &__list {
         margin-top: 64px;
+        opacity: 0;
+        transform: translateY(20px);
     }
 
     &__item {
