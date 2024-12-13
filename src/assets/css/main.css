@@ -37,16 +37,23 @@
 .p-title__main {
   font-size: 80px;
   font-family: "Zen Kaku Gothic New", sans-serif;
-  line-height: 130%;
+}
+@media only screen and (max-width: 767px) {
+  .p-title__main {
+    font-size: 56px;
+  }
 }
 .p-title__sub {
   font-size: 20px;
   font-family: "Yu Gothic";
-  line-height: 130%;
   margin-top: 8px;
 }
 
 /* パンくずリスト */
+.l-ambassador .p-breadcrumbs__list {
+  background: var(--white);
+}
+
 .p-breadcrumbs {
   margin-top: 32px;
 }
@@ -56,9 +63,7 @@
   gap: 10px;
   padding: 8px 16px;
   border-radius: 5px;
-}
-.p-breadcrumbs__list-ambassador {
-  background: var(--white);
+  background: #EDF2F5;
 }
 .p-breadcrumbs__item:first-child {
   display: flex;

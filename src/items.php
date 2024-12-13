@@ -21,20 +21,6 @@ require_once 'components/title.php';
             ['text' => 'アイテムご紹介']
         ]); ?>
     </section>
-
-    <!-- <div class="l-items mt195">
-        <div class="c-hd-title-inner">
-            <h2 class="c-hd-title-en zenkaku">Our items</h2>
-            <p class="c-hd-title-ja">アイテムご紹介</p>
-        </div>
-        <div class="c-breadcrumbs">
-            <p class="c-breadcrumbs-inner">
-                <img src="/assets/images/breadcrumbs\home.svg" alt="パンくずリストアイコン" class="c-breadcrumbs-img-home">
-                <img src="/assets/images/breadcrumbs\arw-thin-min.svg" alt="パンくずリスト矢印" class="c-breadcrumbs-img-arw">
-                <span class="c-breadcrumbs-txt">アイテムご紹介</span>
-            </p>
-        </div>
-    </div> -->
     <section class="l-food">
         <div class="secttl-box">
             <h2 class="sec-ttl zenkaku">Food/Drink</h2>
@@ -45,7 +31,7 @@ require_once 'components/title.php';
                 <li class="c-ourItem-item">
                     <picture>
                         <source srcset="/assets/images/items/item-food.png" media="(max-width: 768px)" />
-                        <img src="/assets/images/items/item-food.png" alt="MITASERU グリーンスムージー ミックスフルーツ味 180g(30日分)">
+                        <img src="/assets/images/items/item-food@2x.png" alt="MITASERU グリーンスムージー ミックスフルーツ味 180g(30日分)">
                     </picture>
                     <span class="c-ourItem-category zenkaku">drink</span>
                     <h3 class="c-ourItem-title">MITASERU グリーンスムージー<br>ミックスフルーツ味 180g(30日分)</h3>
@@ -55,7 +41,7 @@ require_once 'components/title.php';
                 <li class="c-ourItem-item">
                     <picture>
                         <source srcset="/assets/images/items/item-food.png" media="(max-width: 768px)" />
-                        <img src="/assets/images/items/item-food.png" alt="MITASERU グリーンスムージー ミックスフルーツ味 180g(30日分)">
+                        <img src="/assets/images/items/item-food@2x.png" alt="MITASERU グリーンスムージー ミックスフルーツ味 180g(30日分)">
                     </picture>
                     <span class="c-ourItem-category">drink</span>
                     <h3 class="c-ourItem-title">MITASERU グリーンスムージー<br>ミックスフルーツ味 180g(30日分)</h3>
@@ -65,7 +51,7 @@ require_once 'components/title.php';
                 <li class="c-ourItem-item c-ourItem-item-sp">
                     <picture>
                         <source srcset="/assets/images/items/item-food.png" media="(max-width: 768px)" />
-                        <img src="/assets/images/items/item-food.png" alt="MITASERU グリーンスムージー ミックスフルーツ味 180g(30日分)">
+                        <img src="/assets/images/items/item-food@2x.png" alt="MITASERU グリーンスムージー ミックスフルーツ味 180g(30日分)">
                     </picture>
                     <span class="c-ourItem-category">drink</span>
                     <h3 class="c-ourItem-title">MITASERU グリーンスムージー<br>ミックスフルーツ味 180g(30日分)</h3>
@@ -85,7 +71,7 @@ require_once 'components/title.php';
                 <li class="c-ourItem-item">
                     <picture>
                         <source srcset="/assets/images/items/item-supplement.png" media="(max-width: 768px)" />
-                        <img src="/assets/images/items/item-supplement.png" alt="ナチュラルエラグスリム">
+                        <img src="/assets/images/items/item-supplement@2x.png" alt="ナチュラルエラグスリム">
                     </picture>
                     <span class="c-ourItem-category zenkaku">supplement</span>
                     <h3 class="c-ourItem-title">ナチュラルエラグスリム</h3>
@@ -95,7 +81,7 @@ require_once 'components/title.php';
                 <li class="c-ourItem-item">
                     <picture>
                         <source srcset="/assets/images/items/item-supplement.png" media="(max-width: 768px)" />
-                        <img src="/assets/images/items/item-supplement.png" alt="ナチュラルエラグスリム">
+                        <img src="/assets/images/items/item-supplement@2x.png" alt="ナチュラルエラグスリム">
                     </picture>
                     <span class="c-ourItem-category">supplement</span>
                     <h3 class="c-ourItem-title">ナチュラルエラグスリム</h3>
@@ -105,7 +91,7 @@ require_once 'components/title.php';
                 <li class="c-ourItem-item c-ourItem-item-sp">
                     <picture>
                         <source srcset="/assets/images/items/item-supplement.png" media="(max-width: 768px)" />
-                        <img src="/assets/images/items/item-supplement.png" alt="ナチュラルエラグスリム">
+                        <img src="/assets/images/items/item-supplement@2x.png" alt="ナチュラルエラグスリム">
                     </picture>
                     <span class="c-ourItem-category">supplement</span>
                     <h3 class="c-ourItem-title">ナチュラルエラグスリム</h3>

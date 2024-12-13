@@ -1,38 +1,14 @@
 @charset "UTF-8";
-:root {
-  --black: #434D54;
-  --gray-dark: #8F979F;
-  --gray-light: #CDD4D9;
-  --pink: #FD6F6F;
-  --green: #69AF44;
-  --white: #FFFFFF;
-}
-
 .secttl-box .ja-ttl {
   margin-top: 8px;
 }
 
 /* section */
-.section {
-  max-width: 1080px;
-  width: 100%;
-  padding: 0 100px;
-  margin: auto;
-}
-@media only screen and (max-width: 767px) {
-  .section {
-    padding: 0 24px;
-  }
-}
 .section-full {
   margin-inline: calc(50% - 50vw);
 }
 
 /* Our items */
-.l-food {
-  margin-top: 119px;
-}
-
 .p-food__wrapper {
   margin-top: 64px;
 }

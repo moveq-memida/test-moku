@@ -12,7 +12,7 @@ require_once 'components/title.php';
 include __DIR__ . '/components/header.php';
 ?>
 
-<main class="l-main">
+<main class="l-main l-ambassador">
     <div class="c-bg-yellow">
         <div class="wide-wrap">
             <section class="l-main__header">
