@@ -22,30 +22,86 @@ include __DIR__ . '/components/header.php';
                     ['text' => 'アンバサダー募集']
                 ]); ?>
             </section>
-            <div class="l-items mt195">
-                <div class="l-mainVisual">
+            <div class="">
+                <div class="">
                     <p class="p-mainVisual__txt">Habit+(ハビットプラス)のアイテムや活動の認知・普及を、<br>
                         InstagramなどのSNSを通した発信でお手伝いしていただける仲間を募集しています。</p>
-                    <picture>
-                        <source srcset="/assets/images/ambassador/ambassador-phone.png 1x, /assets/images/ambassador/ambassador-phone@2.png 2x" />
-                        <img src="/assets/images/ambassador/ambassador-phone.png 1x" alt="アンバサダー募集" class="p-mainVisual__img">
-                    </picture>
+    
                 </div>
             </div>
         </div>
     </div>
     <div class="c-bg-pink">
-        <div class="l-ambassadorTxt">
-            <p>「食べたい」「我慢したくない」「綺麗に、健康になりたい」<br>
+        <div class="p-ambassador">
+            <p class="p-ambassador__text">「食べたい」「我慢したくない」「綺麗に、健康になりたい」<br>
                 みんなの願いをサポートするために生まれたHabit+(ハビットプラス)。</p>
-            <p>ダイエットは辛いこと、我慢することという固定観念を払拭すると共に、<br>
+            <p class="p-ambassador__text">ダイエットは辛いこと、我慢することという固定観念を払拭すると共に、<br>
                 たくさんの方に私たちのアイテムや活動を知ってもらいたいと考えています。</p>
-            <p>「みんなと一緒にダイエットを頑張りたい」<br>
+            <p class="p-ambassador__text">「みんなと一緒にダイエットを頑張りたい」<br>
                 「健康や美に関する情報を発信していきたい」<br>
                 「頑張っている人たちの力になりたい」</p>
-            <p>こんな気持ちを持っている方と共に、Habit+は成長していきたいです。<br>
+            <p class="p-ambassador__text">こんな気持ちを持っている方と共に、Habit+は成長していきたいです。<br>
                 あなたのご応募お待ちしております！</p>
+                <img src="/assets/images/ambassador/donut@2x.png" alt="ドーナツ" class="p-ambassador__img--01">
+                <img src="/assets/images/ambassador/chicken@2x.png" alt="チキン" class="p-ambassador__img--02">
+                <img src="/assets/images/ambassador/rice_omelet@2x.png" alt="オムレツ" class="p-ambassador__img--03">
+                <img src="/assets/images/ambassador/snack@2x.png" alt="スナック" class="p-ambassador__img--04">
+                <img src="/assets/images/ambassador/juice@2x.png" alt="ジュース" class="p-ambassador__img--05">
+                <img src="/assets/images/ambassador/omelet@2x.png" alt="オムライス" class="p-ambassador__img--06">
+                <img src="/assets/images/ambassador/lunch@2x.png" alt="ランチ" class="p-ambassador__img--07">
+                <img src="/assets/images/ambassador/udon@2x.png" alt="うどん" class="p-ambassador__img--08">
+            
         </div>
+        <section class="p-activities wide-wrap">
+            <div class="l-container">
+                <div class="c-section-header">
+                    <h3 class="c-section-header__title">Activities details</h3>
+                    <p class="c-section-header__subtitle">活動内容</p>
+                </div>
+                <ul class="p-activities__list">
+                    <li class="p-activities__item">
+                        <picture class="p-activities__picture">
+                            <source srcset="/assets/images/ambassador/share.png 1x, /assets/images/ambassador/share@2x.png 2x">
+                            <img
+                                src="/assets/images/ambassador/share@2x.png"
+                                alt="おうちに届いたHabit+(ハビットプラス)のアイテムを、InstagramなどのSNSでシェア！"
+                                class="p-activities__image">
+                        </picture>
+                        <p class="p-activities__description">
+                            おうちに届いたHabit+(ハビットプラス)の<br>アイテムを、InstagramなどのSNSでシェア！
+                        </p>
+                        <div class="p-activities__tags">
+                            <p class="p-activities__tag"># HabitPlus</p>
+                            <p class="p-activities__tag"># ハビットプラス</p>
+                        </div>
+                    </li>
+                    <li class="p-activities__item">
+                        <picture class="p-activities__picture">
+                            <source srcset="/assets/images/ambassador/feedback.png 1x, /assets/images/ambassador/feedback@2x.png 2x">
+                            <img
+                                src="/assets/images/ambassador/feedback@2x.png"
+                                alt="新しいアイテムを試食・使用し、感想やフィードバックをHabit+に提供！"
+                                class="p-activities__image">
+                        </picture>
+                        <p class="p-activities__description">
+                            新しいアイテムを試食・使用し、<br>感想やフィードバックをHabit+に提供！
+                        </p>
+                    </li>
+                    <li class="p-activities__item">
+                        <picture class="p-activities__picture">
+                            <source srcset="/assets/images/ambassador/birth.png 1x, /assets/images/ambassador/birth@2x.png 2x">
+                            <img
+                                src="/assets/images/ambassador/birth@2x.png"
+                                alt="Habit+(ハビットプラス)と共同企画して新しいアイテムを生み出す！"
+                                class="p-activities__image">
+                        </picture>
+                        <p class="p-activities__description">
+                            Habit+(ハビットプラス)と共同企画して<br>新しいアイテムを生み出す！
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
         <section class="p-entry-flow wide-wrap">
             <div class="l-container">
                 <div class="c-section-header">
@@ -69,9 +125,6 @@ include __DIR__ . '/components/header.php';
                             ※迷惑メール等の受信拒否設定をされている方は@move-q.comのドメインからのメールが受信されるよう、設定をご確認ください。
                         </p>
                     </li>
-                    <li class="p-entry-flow__arrow">
-                        <img src="/assets/images/ambassador/arw.svg" alt="Arrow" class="p-entry-flow__arrow-image">
-                    </li>
                     <li class="p-entry-flow__item">
                         <picture class="p-entry-flow__image-wrapper">
                             <source srcset="/assets/images/ambassador/examination.png 1x, /assets/images/ambassador/examination@2x.png 2x">
@@ -84,9 +137,6 @@ include __DIR__ . '/components/header.php';
                         <p class="p-entry-flow__description">
                             記入事項などの内容をもとに審査をおこない、審査通過者にご連絡をします。
                         </p>
-                    </li>
-                    <li class="p-entry-flow__arrow">
-                        <img src="/assets/images/ambassador/arw.svg" alt="Arrow" class="p-entry-flow__arrow-image">
                     </li>
                     <li class="p-entry-flow__item">
                         <picture class="p-entry-flow__image-wrapper">
@@ -300,6 +350,25 @@ include __DIR__ . '/components/header.php';
             fileElem.click();
         }
     }, false);
+</script>
+<script>
+    gsap.fromTo(
+  ".l-main__header",
+  {
+    y: 100, // アニメーション開始前の縦位置(下に100px)
+    autoAlpha: 0, // アニメーション開始前は透明
+  },
+  {
+    y: 0, // アニメーション後の縦位置(上に100px)
+    autoAlpha: 1, // アニメーション後に出現(透過率0)
+    scrollTrigger: {
+      trigger: ".l-main__header", // アニメーションが始まるトリガーとなる要素
+      toggleActions: "play none none reverse", // 上スクロールで戻る
+      start: "top center", // アニメーションの開始位置
+      markers: true, // マーカー表示
+    },
+  }
+);
 </script>
 
 <?php
