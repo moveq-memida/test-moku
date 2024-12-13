@@ -129,7 +129,7 @@ include __DIR__ . '/components/header.php';
                         <div class="p-faq__answer">
                             <img src="/assets/images/ambassador/a.svg" alt="回答" class="p-faq__icon">
                             <p class="p-faq__text">Habit+(ハビットプラス)のアンバサダー募集は通年行っております。<br>
-                            ※募集人数が過多となった場合は予告なく募集を終了する場合がございます。ご了承ください。</p>
+                                ※募集人数が過多となった場合は予告なく募集を終了する場合がございます。ご了承ください。</p>
                         </div>
                     </li>
                     <li class="p-faq__item">
@@ -170,7 +170,137 @@ include __DIR__ . '/components/header.php';
             </div>
         </section>
     </div>
+    <section class="p-entry-form wide-wrap">
+        <div class="c-section-header">
+            <h3 class="c-section-header__title">Entry form</h3>
+            <p class="c-section-header__subtitle">応募フォーム</p>
+        </div>
+        <div class="p-entry-form__container l-container">
+            <p class="p-entry-form__description">
+                Habit+(ハビットプラス)アンバサダーにご興味を持っていただきありがとうございます。<br>
+                下記のフォームに必要事項を入力し、送信をお願いいたします。
+            </p>
+            <form action="" method="post" class="p-entry-form__form">
+                <div class="p-form-group">
+                    <label for="name" class="p-form-group__label">お名前<span class="p-form-group__required">必須</span></label>
+                    <input type="text" name="name" id="name" class="p-form-group__input" placeholder="例）山田花子" required>
+                </div>
+                <div class="p-form-group">
+                    <label for="name_kana" class="p-form-group__label">お名前ふりがな<span class="p-form-group__required">必須</span></label>
+                    <input type="text" name="name_kana" id="name_kana" class="p-form-group__input" placeholder="例）やまだはなこ" required>
+                </div>
+                <div class="p-form-group">
+                    <label for="email" class="p-form-group__label">メールアドレス<span class="p-form-group__required">必須</span></label>
+                    <input type="email" name="email" id="email" class="p-form-group__input" placeholder="例）example@mailaddress.co.jp" required>
+                </div>
+                <div class="p-form-group">
+                    <label for="email_confirm" class="p-form-group__label">メールアドレス(確認用)<span class="p-form-group__required">必須</span></label>
+                    <input type="email" name="email_confirm" id="email_confirm" class="p-form-group__input" required>
+                </div>
+                <div class="p-form-group">
+                    <label for="tel" class="p-form-group__label">お電話番号</label>
+                    <input type="tel" name="tel" id="tel" class="p-form-group__input" placeholder="例）01234567891 (ハイフンなし)">
+                </div>
+                <div class="p-form-group">
+                    <label for="birth_date" class="p-form-group__label">生年月日</label>
+                    <input type="text" name="birth_date" id="birth_date" class="p-form-group__input" placeholder="例）2000年4月1日">
+                </div>
+                <div class="p-form-group">
+                    <label class="p-form-group__label">活用している媒体<span class="p-form-group__required">必須</span></label>
+                    <div class="p-form-group__media">
+                        <div class="p-form-group__media-item">
+                            <input type="checkbox" name="media[]" id="media-instagram" class="p-form-group__checkbox">
+                            <label for="media-instagram" class="p-form-group__checkbox-label">Instagram</label>
+                        </div>
+                        <div class="p-form-group__media-item">
+                            <input type="checkbox" name="media[]" id="media-x" class="p-form-group__checkbox">
+                            <label for="media-x" class="p-form-group__checkbox-label">X(旧Twitter)</label>
+                        </div>
+                        <div class="p-form-group__media-item">
+                            <input type="checkbox" name="media[]" id="media-tiktok" class="p-form-group__checkbox">
+                            <label for="media-tiktok" class="p-form-group__checkbox-label">TikTok</label>
+                        </div>
+                        <div class="p-form-group__media-item">
+                            <input type="checkbox" name="media[]" id="media-youtube" class="p-form-group__checkbox">
+                            <label for="media-youtube" class="p-form-group__checkbox-label">Youtube</label>
+                        </div>
+                        <div class="p-form-group__media-item">
+                            <input type="checkbox" name="media[]" id="media-blog" class="p-form-group__checkbox">
+                            <label for="media-blog" class="p-form-group__checkbox-label">ブログ</label>
+                        </div>
+                        <div class="p-form-group__media-item">
+                            <input type="checkbox" name="media[]" id="media-other" class="p-form-group__checkbox">
+                            <label for="media-other" class="p-form-group__checkbox-label">その他</label>
+                            <input type="text" name="media_other" id="media_other" class="p-form-group__input" placeholder="その他の媒体の名称">
+                        </div>
+                    </div>
+                </div>
+                <div class="p-form-group">
+                    <label for="instagram_account" class="p-form-group__label">Instagramアカウント<span class="p-form-group__required">必須</span></label>
+                    <input type="text" name="instagram_account" id="instagram_account" class="p-form-group__input" placeholder="例）@instagram_account">
+                    <p class="p-form-group__note">＊その他媒体についてはアピール項目にご入力ください</p>
+                </div>
+                <div class="p-form-group">
+                    <label for="attachment" class="p-form-group__label">添付資料</label>
+                    <input type="file" multiple accept="image/*" style="display:none" name="attachment" id="attachment" class="p-form-group__input">
+                    <button id="fileSelect" type="button">ファイルをアップロード</button>
+                </div>
+                <div class="p-form-group">
+                    <label for="appeal" class="p-form-group__label">自己アピール<span class="p-form-group__required">必須</span></label>
+                    <textarea name="appeal" id="appeal" class="p-form-group__textarea" placeholder="活動歴やアンバサダーに対する意気込みなど、ご自由にお書きください。" required></textarea>
+                    <div class="p-form-group__counter">
+                        <span>0/1000</span>
+                    </div>
+                </div>
+                <div class="p-entry-form__regulation">
+                    <label for="regulation" class="p-form-group__label">応募前に応募規約をご一読ください<span class="p-form-group__required">必須</span></label>
+                    <div class="p-entry-form__regulation-content">
+                        <p class="p-entry-form__regulation-text">
+                            ■応募規約<br>
+                            以下の規約をご確認いただき同意の上、ご応募ください。<br><br>
+                            ■名称<br>
+                            Habit+(ハビットプラス)アンバサダー募集(以下、「本募集」といいます)<br><br>
+                            ■本募集の運営<br>
+                            MOVE Q株式会社(以下「当社」といいます)が提供する本募集の運営一切は、Habit+(ハビットプラス)事務局(以下、「事務局」といいます)が行います。<br>
+                            事務局は、必要と判断した場合には、本規約を任意に変更できる他、本募集の適切な運用を行うために必要な対応をとることができるものとします。<br><br>
+                            ■アンバサダー応募方法<br>
+                            応募フォームよりアンケートにご回答いただくことで、ご応募いただけます。※ご回答内容に基づき選定を行い、本募集審査通過者様(以下「審査通過者様」といいます)を決定し、審査通過者様にのみメールにてご連絡いたします
+                        </p>
+                    </div>
+                </div>
+                <div class="p-policy__agree">
+                    <label class="p-policy__checkbox">
+                        <input type="checkbox" name="policy_agree" id="policy_agree" class="p-policy__input" required>
+                        <span class="p-policy__text">応募規約を確認しました</span>
+                    </label>
+                </div>
+
+                <div class="p-policy__policy">
+                    <label class="p-policy__checkbox">
+                        <input type="checkbox" name="privacy_policy" id="privacy_policy" class="p-policy__input" required>
+                        <span class="p-policy__text"><a href="#">プライバシーポリシー</a>に同意する</span>
+                    </label>
+                </div>
+                <div class="o-confirmation__actions">
+                    <button type="submit" class="c-button c-button--primary">入力内容を送信する</button>
+                    <button type="button" class="c-button c-button--secondary">入力内容を修正</button>
+                </div>
+            </form>
+        </div>
+    </section>
 </main>
+
+<!-- 仮設置 -->
+<script>
+    const fileSelect = document.getElementById("fileSelect");
+    const fileElem = document.getElementById("attachment");
+
+    fileSelect.addEventListener("click", (e) => {
+        if (fileElem) {
+            fileElem.click();
+        }
+    }, false);
+</script>
 
 <?php
 include __DIR__ . '/components/Footer.php';
