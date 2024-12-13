@@ -335,6 +335,7 @@ input[type=checkbox] {
   line-height: 130%;
   position: relative;
   transition: 0.2s;
+  cursor: pointer;
 }
 .o-confirmation__actions .c-button--primary {
   background: #69AF43;

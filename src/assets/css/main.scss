@@ -62,6 +62,9 @@
         gap: 10px;
         padding: 8px 16px;
         border-radius: 5px;
+    }
+
+    &__list-ambassador {
         background: var(--white);
     }
 
@@ -91,6 +94,13 @@
         font-weight: 500;
         display: flex;
         align-items: center;
+    }
+}
+
+//
+@media only screen and (max-width: 767px) {
+    .c-ourItem-item-sp {
+        display: none;
     }
 }
 

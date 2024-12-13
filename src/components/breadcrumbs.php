@@ -2,7 +2,7 @@
 function renderBreadcrumbs($breadcrumbs)
 {
     echo '<nav class="p-breadcrumbs">';
-    echo '<ul class="p-breadcrumbs__list">';
+    echo '<ul class="p-breadcrumbs__list p-breadcrumbs__list-ambassador">';
     foreach ($breadcrumbs as $index => $breadcrumb) {
         echo '<li class="p-breadcrumbs__item">';
         if (isset($breadcrumb['icon'])) {

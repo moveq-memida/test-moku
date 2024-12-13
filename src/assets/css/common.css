@@ -1418,6 +1418,11 @@ transform: translateY(0);
     padding: 11px 34px 10px 35px;
     margin-top: 13px;
     max-width: 331px;
+    transition: all .2s;
+}
+
+.p-bnr:hover .p-bnr__btn {
+    background: #FFDB85;
 }
 
 .p-bnr__btn-txt {

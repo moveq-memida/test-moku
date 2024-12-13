@@ -335,6 +335,7 @@ input[type="checkbox"] {
         line-height: 130%;
         position: relative;
         transition: .2s;
+        cursor: pointer;
 
         &--primary {
             background: #69AF43;
